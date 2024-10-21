@@ -1,0 +1,57 @@
+<div class="team">
+    <div class="team__container">
+        <div class="team__title-wrapper">
+            <h2 class="team__title">
+                Наша команда
+            </h2>
+
+            <div class="team__title-wrapper_btns">
+                <div class="arrow-slider team__btn-prev">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 1.5L1.5 6M1.5 6L5.5 10.5M1.5 6L10.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="arrow-slider team__btn-next">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="team-slider swiper">
+            <div class="swiper-wrapper">
+                @@include('team-slide.html', {
+                    "img": "images/p1.png",
+                    "title": "Любовь",
+                    "exp": "Стаж 17 лет",
+                    "text": "Руководитель представительств в ЕС (эксперт по электромобилям)"
+                })
+                @@include('team-slide.html', {
+                    "img": "images/p2.png",
+                    "title": "Елена",
+                    "exp": "Стаж 19 лет",
+                    "text": "Координатор по работе с представительствами"
+                })
+                @@include('team-slide.html', {
+                    "img": "images/p3.png",
+                    "title": "Наталья",
+                    "exp": "Стаж 19 лет",
+                    "text": "Юрист"
+                })
+                @@include('team-slide.html', {
+                    "img": "images/p4.png",
+                    "title": "Григорий",
+                    "exp": "Стаж 16 лет",
+                    "text": "Переводчик (более 7 языков)"
+                })
+                @@include('team-slide.html', {
+                    "img": "images/p5.png",
+                    "title": "Роман",
+                    "exp": "Стаж 20 лет",
+                    "text": "Технический руководитель"
+                })
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,186 @@
+.cooperation {
+  background: url("../images/coop-bg1.png") no-repeat center top / cover;
+
+  &__mob {
+    display: none;
+  }
+
+  @include media(1010) {
+    background-position: 60%;
+  }
+
+  @include media(660) {
+    background: #8513AC !important;
+
+    &__mob {
+      display: block;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__wrapper {
+    max-width: 450px;
+    padding: 80px 0;
+
+    @include media(1010) {
+      max-width: 300px;
+      padding: 48px 0;
+    }
+  }
+
+  &__title {
+    font-size: 42px;
+    color: #fff;
+    line-height: 110%;
+    padding-bottom: 20px;
+
+    @include media(660) {
+      font-size: 32px;
+    }
+  }
+
+  &__text {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 140%;
+    padding: 12px 0;
+
+    @include media(660) {
+      padding-top: 20px;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+
+  &-social {
+    padding-top: 12px;
+
+    a {
+      margin-right: 12px;
+
+      svg circle {
+        transition: $standartTrans;
+      }
+
+      &:hover {
+        svg circle {
+          fill: #AAFF01;
+        }
+      }
+    }
+  }
+}
+
+.car-catalog .cooperation {
+  background: url("../images/car-catalog-bg.png") no-repeat center top / cover;
+
+  @include media(660) {
+    background: #8513AC !important;
+  }
+
+  &__wrapper {
+    max-width: 600px;
+    padding: 155px 0 60px;
+
+    @include media(1100) {
+      max-width: 450px;
+    }
+
+    @include media(660) {
+      max-width: 100%;
+      padding: 48px 0;
+
+      .cooperation__title {
+        padding-bottom: 4px;
+      }
+    }
+  }
+
+  &__text {
+    max-width: 464px;
+    color: #fff;
+    opacity: 0.800000011920929;
+
+    @include media(920) {
+      max-width: 300px;
+    }
+
+    @include media(660) {
+      padding-bottom: 4px;
+    }
+  }
+
+  .main-block__link {
+    max-width: 143px;
+    margin-top: 28px;
+
+    @include media(660) {
+      margin-top: 20px;
+    }
+  }
+}
+
+.about .cooperation {
+  background: url("../images/about-bg.png") no-repeat center top / cover;
+
+  @include media(660) {
+    background: #8513AC !important;
+  }
+
+  &__wrapper {
+    max-width: 600px;
+    padding: 155px 0 160px;
+
+    @include media(1100) {
+      max-width: 450px;
+    }
+
+    @include media(660) {
+      max-width: 100%;
+      padding: 48px 0;
+
+      .cooperation__title {
+        padding-bottom: 4px;
+      }
+    }
+  }
+
+  &__text {
+    max-width: 464px;
+    color: #fff;
+    opacity: 0.800000011920929;
+
+    @include media(920) {
+      max-width: 300px;
+    }
+
+    @include media(660) {
+      padding-bottom: 4px;
+    }
+  }
+
+  .main-block__link {
+    max-width: 143px;
+    margin-top: 28px;
+
+    @include media(660) {
+      margin-top: 20px;
+    }
+  }
+}
+@include media(660) {
+  .car-catalog .cooperation__mob {
+    background: url('../images/coop-bg-mob.png') no-repeat;
+    height: 75vh;
+    background-size: cover !important;
+
+    img {
+      display: none;
+    }
+  }
+}
+

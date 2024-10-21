@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', {
+    'title': 'Главная'
+  })
+  <body>
+    <div class="wrapper main-page">
+      @@include('html/header.html', {})
+      <main class="page">
+        <div data-observ></div>
+        @@include('html/main-block.html', {})
+        @@include('html/clients.html', {})
+        @@include('html/priorities-slider.html', {
+          "title": "Ваши интересы – наш приоритет",
+          "img1": "images/slide6.svg",
+          "img2": "images/slide7.svg",
+          "img3": "images/slide8.svg",
+          "img4": "images/slide9.svg",
+          "img5": "images/slide1.svg",
+          "img6": "images/slide9.svg",
+          "img7": "images/slide1.svg",
+          "link1": "images/slide6.svg",
+          "link2": "images/slide7.svg",
+          "link3": "images/slide8.svg",
+          "link4": "images/slide9.svg",
+          "link5": "images/slide1.svg",
+          "link6": "images/slide9.svg",
+          "link7": "images/slide1.svg",
+        })
+        @@include('html/services.html', {})
+        @@include('html/cooperation.html', {
+          "image": "images/coop-bg-mob.png",
+          "title": "Сотрудничество с Любовью",
+          "text": "Если у Вас компания по продаже автомобилей, то для Вас у нас есть выгодные условия по услугам проверки автомобилей перед покупкой для Ваших клиентов. Так же мы можем привозить автомобили вашей компании под ключ ( подбор, оформление, растаможка, доставка)",
+          "main": {},
+        })
+        @@include('html/cars.html', {
+          "main": {},
+        })
+      </main>
+      @@include('html/footer.html', {})
+      @@include('html/mobile-menu.html', {})
+      @@include('html/popup.html', {})
+      @@include('html/open-img.html', {})
+    </div>
+    @@include('html/script.html', {})
+    <script>
+      (function(doc, scr, id) { var js, fjs = doc.getElementsByTagName(scr)[0]; if (doc.getElementById(id)) return; js = doc.createElement(scr); js.id = id; js.src = 'https://contactus.nikba.com/contactus.min.js?v=1.98'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'contactus-sdk'));
+    </script>
+    <div id="contactus" call="+421903385979" call-label="Позвоните" viber="421903385979" viber-label="Напишите сообщение" whatsapp="+421903385979" whatsapp-label="Напишите сообщение" facebook="" facebook-label="" telegram="+421903385979" telegram-label="Напишите сообщение" title="Нужна помощь? Свяжитесь с нами" position="right" ></div>
+  </body>
+</html>

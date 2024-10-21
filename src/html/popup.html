@@ -1,0 +1,36 @@
+<div class="popup order" data-popup="order">
+    <div class="order__wrapper">
+        <div class="order__title-wrapper">
+            <div class="order__title">
+                Заказать услуги
+            </div>
+            <div class="order__cross button-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                    <rect x="18.4619" width="2.17571" height="26.1086" transform="rotate(45 18.4619 0)" fill="#A1A5B4"/>
+                    <rect width="2.17571" height="26.1086" transform="matrix(-0.707107 0.707107 0.707107 0.707107 1.54004 0)" fill="#A1A5B4"/>
+                </svg>
+            </div>
+        </div>
+
+
+        <div class="order__text">
+            Укажите Ваше имя, номер мобильного телефона или  электронную почту и отправьте заявку. Мы свяжемся с Вами в ближайшее время.
+        </div>
+
+        <form action="#" class="popup__form order__form">
+            <label>
+                <input type="text" class="order__input" name="name" placeholder="Имя" required>
+                <span class="input-warning">Поле заполнено неверно</span>
+            </label>
+            <label>
+                <input type="text" class="order__input" name="text" placeholder="Телефон/ электронная почта" required>
+                <span class="input-warning">Поле заполнено неверно</span>
+            </label>
+            <label>
+                <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" required>
+                <label for="happy"> <p>Я согласен с  <a href="#" target="_blank">условиями обработки персональных данных</a></p></label>
+            </label>
+            <button type="submit" class="btn order__btn">Отправить</button>
+        </form>
+    </div>
+</div>

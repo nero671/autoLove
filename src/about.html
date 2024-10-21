@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Главная'
+})
+<body>
+<div class="wrapper about">
+    @@include('html/header.html', {})
+    <main class="page">
+        <div data-observ></div>
+
+        @@include('html/cooperation.html', {
+            "image": "images/bg-mob-about.png",
+            "title": "О нас",
+            "text": "Всем привет! Меня зовут Любовь Шлеткова и я основатель компании Авто с Любовью.",
+            "about": {},
+        })
+        @@include('html/team.html', {})
+        @@include('html/priorities-slider.html', {
+            "title": "наша работа",
+            "img1": "images/slide5.svg",
+            "img2": "images/slider2.svg",
+            "img3": "images/slide6.svg",
+            "img4": "images/slide7.svg",
+            "img5": "images/slide8.svg",
+            "img6": "images/slide9.svg",
+            "img7": "images/slide1.svg",
+            "link1": "images/slide5.svg",
+            "link2": "https://www.youtube.com/embed/mxCXAkWLvjc?si=U7qgkRPjwgUYxr5_",
+            "link3": "images/slide6.svg",
+            "link4": "images/slide7.svg",
+            "link5": "images/slide8.svg",
+            "link6": "images/slide9.svg",
+            "link7": "images/slide1.svg",
+        })
+        @@include('html/address.html', {})
+    </main>
+    @@include('html/footer.html', {})
+    @@include('html/mobile-menu.html', {})
+    @@include('html/popup.html', {})
+    @@include('html/open-img.html', {})
+</div>
+@@include('html/script.html', {})
+<script>
+    (function(doc, scr, id) { var js, fjs = doc.getElementsByTagName(scr)[0]; if (doc.getElementById(id)) return; js = doc.createElement(scr); js.id = id; js.src = 'https://contactus.nikba.com/contactus.min.js?v=1.98'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'contactus-sdk'));
+</script>
+<div id="contactus" call="+421903385979" call-label="Позвоните" viber="421903385979" viber-label="Напишите сообщение" whatsapp="+421903385979" whatsapp-label="Напишите сообщение" facebook="" facebook-label="" telegram="+421903385979" telegram-label="Напишите сообщение" title="Нужна помощь? Свяжитесь с нами" position="right" ></div>
+</body>
+</html>

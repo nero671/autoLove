@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Главная'
+})
+<body>
+<div class="wrapper car-catalog">
+    @@include('html/header.html', {})
+    <main class="page">
+        <div data-observ></div>
+        @@include('html/cooperation.html', {
+            "image": "",
+            "title": "У вас есть возможность приобрести уже проверенный авто",
+            "text": "Мы ищем, проверяем и покупаем популярные автомобили в  Германии, Бельгии, Швейцарии, Австрии, Чехии и Словакии. ",
+            "catalog": {},
+        })
+        @@include('html/cars.html', {
+            "catalog": {},
+        })
+    </main>
+    @@include('html/footer.html', {})
+    @@include('html/mobile-menu.html', {})
+    @@include('html/popup.html', {})
+</div>
+@@include('html/script.html', {})
+<script>
+    (function(doc, scr, id) { var js, fjs = doc.getElementsByTagName(scr)[0]; if (doc.getElementById(id)) return; js = doc.createElement(scr); js.id = id; js.src = 'https://contactus.nikba.com/contactus.min.js?v=1.98'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'contactus-sdk'));
+</script>
+<div id="contactus" call="+421903385979" call-label="Позвоните" viber="421903385979" viber-label="Напишите сообщение" whatsapp="+421903385979" whatsapp-label="Напишите сообщение" facebook="" facebook-label="" telegram="+421903385979" telegram-label="Напишите сообщение" title="Нужна помощь? Свяжитесь с нами" position="right" ></div>
+</body>
+</html>

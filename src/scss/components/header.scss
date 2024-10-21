@@ -1,0 +1,213 @@
+// =====================================================================================================================
+.header {
+  width: 100%;
+  padding: 18px 0;
+  transition: 0.3s;
+
+  &.sticky {
+    position: fixed;
+    z-index: 99999999;
+  }
+
+  .logo .purp {
+    display: none;
+  }
+
+  &-white {
+    background: #fff;
+
+    .logo .white {
+      display: none;
+    }
+
+    .logo .purp {
+      display: block;
+    }
+
+    .menu__link,
+    .header-contacts__phone {
+      color: #272727 !important;
+    }
+
+    .icon-menu span,
+    .icon-menu::before {
+      background-color: #000;
+    }
+  }
+
+  // .header__container
+  &__container {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .menu {
+    &__list {
+      @extend %flex;
+    }
+
+    &__item {
+      margin-left: 40px;
+
+      a {
+        color: #fff;
+        font-weight: 500;
+        @extend %regular-text;
+        cursor: pointer;
+      }
+    }
+
+    @include media(935) {
+      display: none;
+    }
+  }
+
+  &-btn__wrapper {
+    display: flex;
+
+    @include media(935) {
+      display: none;
+    }
+  }
+
+  &-contacts {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    @include media(935) {
+      margin-right: auto;
+    }
+
+    &__phone {
+      color: #fff;
+      @extend %regular-text;
+      font-weight: 500;
+    }
+  }
+
+  .btn__purple {
+    margin-left: 24px;
+    margin-right: 12px;
+  }
+
+
+}
+// =====================================================================================================================
+
+// Burger
+
+.icon-menu {
+  display: none;
+  background: transparent;
+
+  @include media(935) {
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 5;
+
+    span,
+    &::before {
+      content: "";
+      transition: $standartTrans;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    span {
+      top: calc(50% - 1px);
+    }
+
+    .menu-open & {
+      span {
+        bottom: calc(50% - 1px);
+        transform: rotate(45deg);
+      }
+
+      &::before {
+        top: calc(50% - 1px);
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #710098;
+  padding: 108px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  z-index: -1;
+  transition: $standartTrans;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  @media (max-height: 420px) {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+
+  &.active {
+    opacity: 1;
+    z-index: 99999;
+    transition: $standartTrans;
+  }
+
+  .menu__link {
+    color: #fff;
+    @extend %regular-text;
+    margin-bottom: 40px;
+    display: block;
+
+    @media (max-height: 420px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .header-btn__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+
+    a {
+      max-width: 155px;
+      @extend %regular-text;
+      padding: 14px 20px;
+      margin-top: 20px;
+      display: block;
+    }
+  }
+}
+
+.car-catalog .header .header-contacts__phone {
+  color: #272727;
+
+  @include media(660) {
+    color: #fff;
+  }
+}
+
+
+

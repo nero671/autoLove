@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Flex:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+  <title>Главная</title>
+</head>
+
+<body>
+<div class="about wrapper">
+    <header class="header sticky">
+  <div class="header__container">
+    <a href="/shall/" class="header__logo logo">
+      <img class="white" src="images/logo.svg" alt="Shall">
+      <img class="purp" src="images/logo-purp.svg" alt="Shall">
+    </a>
+    <nav class="header__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="/shall#car" class="menu__link">Услуги</a></li>
+        <li class="menu__item"><a href="/shall/car-catalog.html" class="menu__link">Авто в наличии</a></li>
+        <li class="menu__item"><a href="/shall/about.html" class="menu__link">О нас</a></li>
+      </ul>
+    </nav>
+    <div class="header-contacts">
+      <a href="tel:+421 903 385 979" class="header-contacts__phone">+421 903 385 979</a>
+      <div class="header-btn__wrapper">
+        <div class="btn header-btn btn__purple" data-type="order">Заказать услуги</div>
+        <a href="#" class="btn header-btn">Оплатить услуги</a>
+      </div>
+    </div>
+    <button class="header__burger icon-menu">
+  <span></span>
+</button>
+  </div>
+</header>
+
+    <main class="page">
+        <div data-observ></div>
+
+        <div class="cooperation">
+    <div class="cooperation__mob">
+        <img src="images/bg-mob-about.png" alt="shall">
+    </div>
+    <div class="cooperation__container">
+        <div class="cooperation__wrapper">
+            <div class="cooperation__title">
+                О нас
+            </div>
+            <div class="cooperation__text">
+                Всем привет! Меня зовут Любовь Шлеткова и я основатель компании Авто с Любовью.
+            </div>
+
+            
+            
+
+            
+                <div class="cooperation__text">
+                    Мой 17 летний опыт в автобизнесе и постоянное обучение в этой сфере дает мне огромные возможности выполнять все цели и задачи, которые ставит передо мной заказчик. У меня за плечами продано более 1500 автомобилей разных марок и моделей. Наш коллектив подбирался тщательно и очень долго, чтобы найти лучших в своем деле. Если Вас интересует покупка автомобиля, то Вы точно по адресу.
+                </div>
+            
+
+        </div>
+    </div>
+</div>
+
+        <div class="team">
+    <div class="team__container">
+        <div class="team__title-wrapper">
+            <h2 class="team__title">
+                Наша команда
+            </h2>
+
+            <div class="team__title-wrapper_btns">
+                <div class="arrow-slider team__btn-prev">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 1.5L1.5 6M1.5 6L5.5 10.5M1.5 6L10.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="arrow-slider team__btn-next">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="swiper team-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide team-slide">
+    <div class="team__img">
+        <img src="images/p1.png" alt="Shall">
+    </div>
+    <div class="team-info">
+        <div class="team-slider__title">
+            Любовь
+        </div>
+        <div class="team-exp">
+            Стаж 17 лет
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="245" height="6" viewBox="0 0 245 6" fill="none">
+        <path d="M1 5L6.65116 1L6.65116 5L12.3023 1V5L17.9535 1V5L23.6046 1V5L29.2558 1V5L34.907 1V5L40.5581 1V5L46.2093 1V5L51.8605 1V5L57.5116 1V5L63.1628 1V5L68.814 1V5L74.4651 1V5L80.1163 1V5L85.7674 1V5L91.4186 1V5L97.0698 1V5L102.721 1V5L108.372 1V5L114.023 1V5L119.674 1V5L125.326 1V5L130.977 1V5L136.628 1V5L142.279 1V5L147.93 1V5L153.581 1V5L159.233 1V5L164.884 1V5L170.535 1V5L176.186 1V5L181.837 1V5L187.488 1V5L193.14 1V5L198.791 1V5L204.442 1V5L210.093 1V5L215.744 1V5L221.395 1V5L227.046 1V5L232.698 1V5L238.349 1V5L244 1V5" stroke="#D8E0E3"/>
+    </svg>
+    <div class="team__text">
+        Руководитель представительств в ЕС (эксперт по электромобилям)
+    </div>
+</div>
+
+                <div class="swiper-slide team-slide">
+    <div class="team__img">
+        <img src="images/p2.png" alt="Shall">
+    </div>
+    <div class="team-info">
+        <div class="team-slider__title">
+            Елена
+        </div>
+        <div class="team-exp">
+            Стаж 19 лет
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="245" height="6" viewBox="0 0 245 6" fill="none">
+        <path d="M1 5L6.65116 1L6.65116 5L12.3023 1V5L17.9535 1V5L23.6046 1V5L29.2558 1V5L34.907 1V5L40.5581 1V5L46.2093 1V5L51.8605 1V5L57.5116 1V5L63.1628 1V5L68.814 1V5L74.4651 1V5L80.1163 1V5L85.7674 1V5L91.4186 1V5L97.0698 1V5L102.721 1V5L108.372 1V5L114.023 1V5L119.674 1V5L125.326 1V5L130.977 1V5L136.628 1V5L142.279 1V5L147.93 1V5L153.581 1V5L159.233 1V5L164.884 1V5L170.535 1V5L176.186 1V5L181.837 1V5L187.488 1V5L193.14 1V5L198.791 1V5L204.442 1V5L210.093 1V5L215.744 1V5L221.395 1V5L227.046 1V5L232.698 1V5L238.349 1V5L244 1V5" stroke="#D8E0E3"/>
+    </svg>
+    <div class="team__text">
+        Координатор по работе с представительствами
+    </div>
+</div>
+
+                <div class="swiper-slide team-slide">
+    <div class="team__img">
+        <img src="images/p3.png" alt="Shall">
+    </div>
+    <div class="team-info">
+        <div class="team-slider__title">
+            Наталья
+        </div>
+        <div class="team-exp">
+            Стаж 19 лет
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="245" height="6" viewBox="0 0 245 6" fill="none">
+        <path d="M1 5L6.65116 1L6.65116 5L12.3023 1V5L17.9535 1V5L23.6046 1V5L29.2558 1V5L34.907 1V5L40.5581 1V5L46.2093 1V5L51.8605 1V5L57.5116 1V5L63.1628 1V5L68.814 1V5L74.4651 1V5L80.1163 1V5L85.7674 1V5L91.4186 1V5L97.0698 1V5L102.721 1V5L108.372 1V5L114.023 1V5L119.674 1V5L125.326 1V5L130.977 1V5L136.628 1V5L142.279 1V5L147.93 1V5L153.581 1V5L159.233 1V5L164.884 1V5L170.535 1V5L176.186 1V5L181.837 1V5L187.488 1V5L193.14 1V5L198.791 1V5L204.442 1V5L210.093 1V5L215.744 1V5L221.395 1V5L227.046 1V5L232.698 1V5L238.349 1V5L244 1V5" stroke="#D8E0E3"/>
+    </svg>
+    <div class="team__text">
+        Юрист
+    </div>
+</div>
+
+                <div class="swiper-slide team-slide">
+    <div class="team__img">
+        <img src="images/p4.png" alt="Shall">
+    </div>
+    <div class="team-info">
+        <div class="team-slider__title">
+            Григорий
+        </div>
+        <div class="team-exp">
+            Стаж 16 лет
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="245" height="6" viewBox="0 0 245 6" fill="none">
+        <path d="M1 5L6.65116 1L6.65116 5L12.3023 1V5L17.9535 1V5L23.6046 1V5L29.2558 1V5L34.907 1V5L40.5581 1V5L46.2093 1V5L51.8605 1V5L57.5116 1V5L63.1628 1V5L68.814 1V5L74.4651 1V5L80.1163 1V5L85.7674 1V5L91.4186 1V5L97.0698 1V5L102.721 1V5L108.372 1V5L114.023 1V5L119.674 1V5L125.326 1V5L130.977 1V5L136.628 1V5L142.279 1V5L147.93 1V5L153.581 1V5L159.233 1V5L164.884 1V5L170.535 1V5L176.186 1V5L181.837 1V5L187.488 1V5L193.14 1V5L198.791 1V5L204.442 1V5L210.093 1V5L215.744 1V5L221.395 1V5L227.046 1V5L232.698 1V5L238.349 1V5L244 1V5" stroke="#D8E0E3"/>
+    </svg>
+    <div class="team__text">
+        Переводчик (более 7 языков)
+    </div>
+</div>
+
+                <div class="swiper-slide team-slide">
+    <div class="team__img">
+        <img src="images/p5.png" alt="Shall">
+    </div>
+    <div class="team-info">
+        <div class="team-slider__title">
+            Роман
+        </div>
+        <div class="team-exp">
+            Стаж 20 лет
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="245" height="6" viewBox="0 0 245 6" fill="none">
+        <path d="M1 5L6.65116 1L6.65116 5L12.3023 1V5L17.9535 1V5L23.6046 1V5L29.2558 1V5L34.907 1V5L40.5581 1V5L46.2093 1V5L51.8605 1V5L57.5116 1V5L63.1628 1V5L68.814 1V5L74.4651 1V5L80.1163 1V5L85.7674 1V5L91.4186 1V5L97.0698 1V5L102.721 1V5L108.372 1V5L114.023 1V5L119.674 1V5L125.326 1V5L130.977 1V5L136.628 1V5L142.279 1V5L147.93 1V5L153.581 1V5L159.233 1V5L164.884 1V5L170.535 1V5L176.186 1V5L181.837 1V5L187.488 1V5L193.14 1V5L198.791 1V5L204.442 1V5L210.093 1V5L215.744 1V5L221.395 1V5L227.046 1V5L232.698 1V5L238.349 1V5L244 1V5" stroke="#D8E0E3"/>
+    </svg>
+    <div class="team__text">
+        Технический руководитель
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div class="priorities">
+    <div class="priorities__container">
+        <div class="priorities__title-wrapper">
+            <h2 class="priorities__title">
+                наша работа
+            </h2>
+
+
+            <div class="priorities__title-wrapper_btns">
+                <div class="arrow-slider priorities__btn-prev">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 1.5L1.5 6M1.5 6L5.5 10.5M1.5 6L10.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="arrow-slider priorities__btn-next">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="swiper priorities-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide5.svg">
+                    <img src="images/slide5.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="https://www.youtube.com/embed/mxCXAkWLvjc?si=U7qgkRPjwgUYxr5_">
+                    <img src="images/slider2.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide6.svg">
+                    <img src="images/slide6.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide7.svg">
+                    <img src="images/slide7.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide8.svg">
+                    <img src="images/slide8.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide9.svg">
+                    <img src="images/slide9.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide1.svg">
+                    <img src="images/slide1.svg" alt="Shall">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="address">
+    <div class="address__container">
+        <div class="address-title__wrapper">
+            <div class="address__title">
+                Где мы работаем?
+            </div>
+            <div class="address-work-time">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="24" fill="#AAFF01"/>
+                    <circle cx="24" cy="24" r="7.25" stroke="#272727" stroke-width="1.5"/>
+                    <path d="M24 20V24.6155L25.5 26.1155" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <div class="address-time__title-wrapper">
+                    <div class="address-time__title">
+                        Пн-пт 8:30 – 18:00
+                    </div>
+                    <div class="address-time__title">
+                        Сб  10:00 – 15:00
+                    </div>
+                    <div class="address-time__title">
+                        Вс – выходной
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="address-map">
+            <div class="address-map__item">
+                <ul class="address-map-list">
+                    <li class="address-map__text">
+                        Главный офис
+                    </li>
+                    <li class="address-map__title">
+                        Братислава (Словакия)
+                    </li>
+                </ul>
+                <ul class="address-map-list">
+                    <li class="address-map__text">
+                        Представительства
+                    </li>
+                    <li class="address-map__title">
+                        Мюнхен
+                    </li>
+                    <li class="address-map__title">
+                        Франкфурт на Майне
+                    </li>
+                    <li class="address-map__title">
+                        Берлин
+                    </li>
+                    <li class="address-map__title">
+                        Дюссельдорф
+                    </li>
+                    <li class="address-map__title">
+                        Штутгарт
+                    </li>
+                    <li class="address-map__title">
+                        Гамбург
+                    </li>
+                    <li class="address-map__title">
+                        Кельн
+                    </li>
+                    <li class="address-map__title">
+                        Баден-Баден
+                    </li>
+                    <li class="address-map__title">
+                        Вена
+                    </li>
+                    <li class="address-map__title">
+                        Прага
+                    </li>
+                </ul>
+                <div class="address-work-time">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="48" rx="24" fill="#AAFF01"/>
+                        <circle cx="24" cy="24" r="7.25" stroke="#272727" stroke-width="1.5"/>
+                        <path d="M24 20V24.6155L25.5 26.1155" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                    <div class="address-time__title-wrapper">
+                        <div class="address-time__title">
+                            Пн-пт 8:30 – 18:00
+                        </div>
+                        <div class="address-time__title">
+                            Сб  10:00 – 15:00
+                        </div>
+                        <div class="address-time__title">
+                            Вс – выходной
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="address-map__item">
+                <img class="desk" src="images/map.png" alt="Shall">
+                <img class="mob" src="images/map-mob.png" alt="Shall">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="footer__container">
+    <div class="footer-sociall">
+      <a href="https://www.facebook.com/autowithIove/">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M16.8744 17.2603V22.7764H14.3405V17.2603H12.2354V15.0236H14.3405V14.2098C14.3405 11.1886 15.6026 9.59998 18.2729 9.59998C19.0916 9.59998 19.2963 9.73155 19.7446 9.83875V12.0511C19.2427 11.9634 19.1013 11.9146 18.5799 11.9146C17.9611 11.9146 17.6297 12.0901 17.3276 12.436C17.0255 12.782 16.8744 13.3814 16.8744 14.239V15.0284H19.7446L18.9746 17.2651H16.8744V17.2603Z" fill="#8513AC"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/autowithlove/?igshid=MzNlNGNkZWQ4Mg==">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M19.7594 21.8353H12.2408C11.2018 21.8353 10.353 20.9865 10.353 19.9476V12.429C10.353 11.39 11.2018 10.5412 12.2408 10.5412H19.7594C20.7983 10.5412 21.6471 11.39 21.6471 12.429V19.9476C21.6471 20.9912 20.803 21.8353 19.7594 21.8353Z" fill="#8513AC"/>
+          <path d="M16.0024 19.0895C15.2278 19.0895 14.4996 18.788 13.9523 18.2407C13.405 17.6934 13.1035 16.9652 13.1035 16.1906C13.1035 15.416 13.405 14.6878 13.9523 14.1405C14.4996 13.5932 15.2278 13.2917 16.0024 13.2917C16.777 13.2917 17.5052 13.5932 18.0525 14.1405C18.5998 14.6878 18.9013 15.416 18.9013 16.1906C18.9013 16.9652 18.5998 17.6934 18.0525 18.2407C17.5006 18.788 16.777 19.0895 16.0024 19.0895ZM16.0024 13.9086C14.7455 13.9086 13.7204 14.929 13.7204 16.1906C13.7204 17.4476 14.7408 18.4726 16.0024 18.4726C17.2594 18.4726 18.2844 17.4522 18.2844 16.1906C18.2798 14.9336 17.2594 13.9086 16.0024 13.9086Z" fill="white"/>
+          <path d="M19.4663 13.1964C19.7737 13.1964 20.0229 12.9472 20.0229 12.6398C20.0229 12.3324 19.7737 12.0832 19.4663 12.0832C19.1589 12.0832 18.9097 12.3324 18.9097 12.6398C18.9097 12.9472 19.1589 13.1964 19.4663 13.1964Z" fill="white"/>
+        </svg>
+      </a>
+      <a href="https://www.youtube.com/channel/UCwrUu_AaMzESr3XB2rMPNVQ">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M21.4857 21.203H11.0788C9.68633 21.203 8.56445 19.9715 8.56445 18.4568V13.5432C8.56445 12.0223 9.69196 10.797 11.0788 10.797H21.4857C22.8781 10.797 24 12.0285 24 13.5432V18.4568C24.0056 19.9777 22.8781 21.203 21.4857 21.203Z" fill="#8513AC"/>
+          <path d="M19.0127 15.923L14.6348 13.3985V18.4476L19.0127 15.923Z" fill="white"/>
+        </svg>
+      </a>
+      <a href="https://vk.com/autowithlove">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M16.7145 20.9982C11.2479 20.9982 8.12992 17.2459 8 11.002H10.7383C10.8282 15.5848 12.8469 17.526 14.4459 17.9263V11.002H17.0244V14.9544C18.6034 14.7843 20.2622 12.9832 20.8218 11.002H23.4003C22.9705 13.4435 21.1717 15.2446 19.8925 15.9851C21.1717 16.5854 23.2205 18.1564 24 20.9982H21.1617C20.5521 19.097 19.0332 17.6261 17.0244 17.426V20.9982H16.7145Z" fill="#8513AC"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="footer-text__wrapper">
+      <div class="footer__text">
+        Slovakia sk Bratislava stara vajnorska 8
+      </div>
+      <div class="footer__text">
+        <a href="mailto:autowithlove@gmail.com">autowithlove@gmail.com</a>
+      </div>
+      <div class="footer__text">
+        <span>Разработка сайта:</span> <a href="https://www.imedia.by/" target="_blank">Imedia Solutions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="mobile-menu">
+    <nav class="header__menu menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="/shall#car" class="menu__link">Услуги</a></li>
+            <li class="menu__item"><a href="/shall/car-catalog.html" class="menu__link">Авто в наличии</a></li>
+            <li class="menu__item"><a href="/shall/about.html" class="menu__link">О нас</a></li>
+        </ul>
+    </nav>
+    <div class="header-btn__wrapper">
+        <a href="#" class="btn header-btn btn__purple" data-type="order">Заказать услуги</a>
+        <a href="#" class="btn header-btn">Оплатить услуги</a>
+    </div>
+</div>
+
+    <div class="popup order" data-popup="order">
+    <div class="order__wrapper">
+        <div class="order__title-wrapper">
+            <div class="order__title">
+                Заказать услуги
+            </div>
+            <div class="button-close order__cross">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                    <rect x="18.4619" width="2.17571" height="26.1086" transform="rotate(45 18.4619 0)" fill="#A1A5B4"/>
+                    <rect width="2.17571" height="26.1086" transform="matrix(-0.707107 0.707107 0.707107 0.707107 1.54004 0)" fill="#A1A5B4"/>
+                </svg>
+            </div>
+        </div>
+
+
+        <div class="order__text">
+            Укажите Ваше имя, номер мобильного телефона или  электронную почту и отправьте заявку. Мы свяжемся с Вами в ближайшее время.
+        </div>
+
+        <form action="#" class="order__form popup__form">
+            <label>
+                <input type="text" class="order__input" name="name" placeholder="Имя" required>
+                <span class="input-warning">Поле заполнено неверно</span>
+            </label>
+            <label>
+                <input type="text" class="order__input" name="text" placeholder="Телефон/ электронная почта" required>
+                <span class="input-warning">Поле заполнено неверно</span>
+            </label>
+            <label>
+                <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" required>
+                <label for="happy"> <p>Я согласен с  <a href="#" target="_blank">условиями обработки персональных данных</a></p></label>
+            </label>
+            <button type="submit" class="btn order__btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
+    <div class="popup open-img__popup">
+    <div class="open-img__popup-wrapper">
+        <div class="open-img-popup__cross">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                <rect x="18.4619" width="2.17571" height="26.1086" transform="rotate(45 18.4619 0)" fill="#A1A5B4"></rect>
+                <rect width="2.17571" height="26.1086" transform="matrix(-0.707107 0.707107 0.707107 0.707107 1.54004 0)" fill="#A1A5B4"></rect>
+            </svg>
+        </div>
+        <div class="open-img-popup__content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mxCXAkWLvjc?si=U7qgkRPjwgUYxr5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <img src="" alt="shall">
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="js/app.min.js"></script>
+
+<script>
+    (function(doc, scr, id) { var js, fjs = doc.getElementsByTagName(scr)[0]; if (doc.getElementById(id)) return; js = doc.createElement(scr); js.id = id; js.src = 'https://contactus.nikba.com/contactus.min.js?v=1.98'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'contactus-sdk'));
+</script>
+<div id="contactus" call="+421903385979" call-label="Позвоните" viber="421903385979" viber-label="Напишите сообщение" whatsapp="+421903385979" whatsapp-label="Напишите сообщение" facebook="" facebook-label="" telegram="+421903385979" telegram-label="Напишите сообщение" title="Нужна помощь? Свяжитесь с нами" position="right"></div>
+</body>
+</html>

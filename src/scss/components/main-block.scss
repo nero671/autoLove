@@ -1,0 +1,107 @@
+.main-block {
+  background: url("../images/bg1.png") no-repeat center center / cover;
+  background-color: #EFF1F2;
+  height: 856px;
+
+  @media (min-width: 2500px) {
+    height: 100vh;
+  }
+
+  @media (min-width: 1921px) {
+    height: 90vh;
+  }
+
+  @include media(1750) {
+    height: 90vh;
+  }
+
+  @include media(1500) {
+    height: 100vh;
+  }
+
+  @include media(1090) {
+    height: auto;
+    //background: url("../../images/bg.png") no-repeat 50% / cover;
+  }
+
+  @include media(910) {
+    background: url('../images/bg.png') no-repeat;
+    background-size: cover !important;
+    height: 45vh;
+    background-position: 15% !important;
+  }
+
+  @include media(576) {
+    background: url("../images/bg-mob.png") no-repeat;
+    background-size: cover !important;
+    height: 100vh;
+  }
+
+  @media (max-height: 430px) {
+    height: 100%;
+  }
+
+  &__wrapper {
+    max-width: 419px;
+    padding-top: 144px;
+
+    @include media(1090) {
+      padding: 120px 0;
+      max-width: 325px;
+    }
+  }
+
+  &__title {
+    color: #fff;
+    line-height: 100%;
+    font-size: 54px;
+
+    @include media(1090) {
+      font-size: 37px;
+    }
+
+    @include media(576) {
+      font-size: 32px;
+    }
+  }
+
+  &__text {
+    line-height: 140%;
+    opacity: 0.800000011920929;
+    color: #fff;
+    padding: 36px 0;
+
+    @include media(576) {
+      padding: 24px 0;
+    }
+  }
+
+  &__link {
+    @extend %regular-text;
+    @extend %flex;
+    color: #272727;
+    background: #AAFF01;
+    max-width: 210px;
+    border-radius: 92px;
+    justify-content: center;
+    padding: 6px 6px 6px 18px;
+    transition: $standartTrans;
+    font-weight: 500;
+
+    &:hover {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), #AAFF01;
+      transition: $standartTrans;
+    }
+
+    svg {
+      margin-left: 16px;
+    }
+  }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+.clients {
+  padding-top: 42px;
+  background: #EFF1F2;
+
+  @include media(576) {
+    padding-top: 80px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__text {
+    opacity: 0.6000000238418579;
+    color: #272727;
+    padding-top: 20px;
+
+    @include media(576) {
+      padding-top: 24px;
+    }
+  }
+
+  &-card {
+    border-radius: 20px;
+    background: #FFF;
+    padding: 20px;
+    position: relative;
+    width: 332px;
+
+    @include media(576) {
+      width: 100%;
+    }
+
+    &:nth-child(2) {
+      margin-left: 16px;
+
+      @include media(705) {
+        margin-left: 0;
+        margin-top: 32px;
+      }
+    }
+
+    &__wrapper {
+      @extend %flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+
+      @include media(1060) {
+        margin-top: 32px;
+      }
+    }
+
+    &__img-wrapper {
+      height: 108px;
+      overflow: hidden;
+    }
+
+    &__label {
+      position: absolute;
+      top: -15px;
+      left: 100px;
+    }
+
+    &__title {
+      font-size: 20px;
+      line-height: 120%;
+      letter-spacing: -0.1px;
+      margin-top: 36px;
+    }
+
+    &__text {
+      color: #A1A5B4;
+      margin-top: 12px;
+    }
+  }
+}

@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Flex:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+  <title>Главная</title>
+</head>
+
+  <body>
+    <div class="main-page wrapper">
+      <header class="header sticky">
+  <div class="header__container">
+    <a href="/shall/" class="header__logo logo">
+      <img class="white" src="images/logo.svg" alt="Shall">
+      <img class="purp" src="images/logo-purp.svg" alt="Shall">
+    </a>
+    <nav class="header__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="/shall#car" class="menu__link">Услуги</a></li>
+        <li class="menu__item"><a href="/shall/car-catalog.html" class="menu__link">Авто в наличии</a></li>
+        <li class="menu__item"><a href="/shall/about.html" class="menu__link">О нас</a></li>
+      </ul>
+    </nav>
+    <div class="header-contacts">
+      <a href="tel:+421 903 385 979" class="header-contacts__phone">+421 903 385 979</a>
+      <div class="header-btn__wrapper">
+        <div class="btn header-btn btn__purple" data-type="order">Заказать услуги</div>
+        <a href="#" class="btn header-btn">Оплатить услуги</a>
+      </div>
+    </div>
+    <button class="header__burger icon-menu">
+  <span></span>
+</button>
+  </div>
+</header>
+
+      <main class="page">
+        <div data-observ></div>
+        <div class="main-block">
+    <div class="main-block__container">
+        <div class="main-block__wrapper">
+            <h1 class="main-block__title">
+                Уверенность в покупке авто
+            </h1>
+
+            <div class="main-block__text">
+                Проверка автомобилей перед покупкой в Германии, Бельгии, Швейцарии, Австрии, Чехии, Словакии
+            </div>
+
+            <a href="#car" class="main-block__link">
+                Перейти к услугам
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="36" width="36" height="36" rx="18" transform="rotate(90 36 0)" fill="#272727"/>
+                    <path d="M22.5 18.5L18 22.5M18 22.5L13.5 18.5M18 22.5L18 13.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+
+            </a>
+        </div>
+
+
+    </div>
+
+</div>
+
+        <div class="clients">
+    <div class="clients__container">
+        <div class="clients__wrapper">
+            <div class="clients-title__wrapper">
+                <h2 class="clients__title">
+                    <span id="count">1358</span> клиентов
+                </h2>
+                <div class="clients__text">
+                    уже воспользовались нашими услугами
+                </div>
+            </div>
+            <div class="clients-card__wrapper">
+                <div class="clients-card">
+                    <div class="clients-card__img-wrapper">
+                        <img src="images/car1.png" alt="Shall">
+                    </div>
+                    <img class="clients-card__label" src="images/check.png" alt="Shall">
+                    <div class="clients-card__title">
+                        Уверенность в авто
+                    </div>
+                    <div class="clients-card__text">
+                        Защитите свои интересы!
+                    </div>
+                </div>
+
+                <div class="clients-card">
+                    <div class="clients-card__img-wrapper">
+                        <img src="images/car2.png" alt="Shall">
+                    </div>
+                    <img class="clients-card__label" src="images/c.png" alt="Shall">
+                    <div class="clients-card__title">
+                        Осознанный выбор
+                    </div>
+                    <div class="clients-card__text">
+                        Благодаря нашим экспертам
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+        <div class="priorities">
+    <div class="priorities__container">
+        <div class="priorities__title-wrapper">
+            <h2 class="priorities__title">
+                Ваши интересы – наш приоритет
+            </h2>
+
+
+            <div class="priorities__title-wrapper_btns">
+                <div class="arrow-slider priorities__btn-prev">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 1.5L1.5 6M1.5 6L5.5 10.5M1.5 6L10.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="arrow-slider priorities__btn-next">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="swiper priorities-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide6.svg">
+                    <img src="images/slide6.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide7.svg">
+                    <img src="images/slide7.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide8.svg">
+                    <img src="images/slide8.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide9.svg">
+                    <img src="images/slide9.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide1.svg">
+                    <img src="images/slide1.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide9.svg">
+                    <img src="images/slide9.svg" alt="Shall">
+                </div>
+                <div class="swiper-slide priorities-slider__slide" data-link="images/slide1.svg">
+                    <img src="images/slide1.svg" alt="Shall">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="services" id="car">
+    <div class="services-bg__wrapper">
+    <div class="services__title">
+        <span>Услуги</span>
+        <img src="images/car-mob.png" alt="Shall" class="car-mob">
+    </div>
+    <div class="car-wrapper">
+        <div class="car">
+            <div class="car__body"></div>
+            <div class="car__wheel"></div>
+            <div class="car__wheel"></div>
+        </div>
+    </div>
+
+    <div class="services__container">
+        <div class="services-card__wrapper">
+            <div class="services-card">
+                <a href="#" class="services-card__link">
+                    <div class="services-card__title">
+                        Проверка автомобиля
+                    </div>
+                    <div class="services-card__price">
+                        <div class="services-card__price-item">
+                            <ul class="services-card__price-list">
+                                <li class="services-card__price-list_item">
+                                    <div class="services-card-price__text">
+                                        до 50000 €
+                                    </div>
+                                    <div class="services-card-price__title">
+                                        190 €
+                                    </div>
+                                </li>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="310" height="6" viewBox="0 0 310 6" fill="none">
+                                    <path opacity="0.3" d="M1 5L7.03922 1V5L13.0784 1V5L19.1176 1V5L25.1569 1V5L31.1961 1V5L37.2353 1V5L43.2745 1V5L49.3137 1V5L55.3529 1V5L61.3922 1V5L67.4314 1V5L73.4706 1V5L79.5098 1V5L85.549 1V5L91.5882 1V5L97.6275 1V5L103.667 1V5L109.706 1V5L115.745 1V5L121.784 1V5L127.824 1V5L133.863 1V5L139.902 1V5L145.941 1V5L151.98 1V5L158.02 1V5L164.059 1V5L170.098 1V5L176.137 1V5L182.176 1V5L188.216 1V5L194.255 1V5L200.294 1V5L206.333 1V5L212.373 1V5L218.412 1V5L224.451 1V5L230.49 1V5L236.529 1V5L242.569 1V5L248.608 1V5L254.647 1V5L260.686 1V5L266.726 1V5L272.765 1V5L278.804 1V5L284.843 1V5L290.882 1V5L296.922 1V5L302.961 1V5L309 1" stroke="white"/>
+                                </svg>
+
+                                <li class="services-card__price-list_item">
+                                    <div class="services-card-price__text">
+                                        от 50000 € до 100000 €
+                                    </div>
+                                    <div class="services-card-price__title">
+                                        249 €
+                                    </div>
+                                </li>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="310" height="6" viewBox="0 0 310 6" fill="none">
+                                    <path opacity="0.3" d="M1 5L7.03922 1V5L13.0784 1V5L19.1176 1V5L25.1569 1V5L31.1961 1V5L37.2353 1V5L43.2745 1V5L49.3137 1V5L55.3529 1V5L61.3922 1V5L67.4314 1V5L73.4706 1V5L79.5098 1V5L85.549 1V5L91.5882 1V5L97.6275 1V5L103.667 1V5L109.706 1V5L115.745 1V5L121.784 1V5L127.824 1V5L133.863 1V5L139.902 1V5L145.941 1V5L151.98 1V5L158.02 1V5L164.059 1V5L170.098 1V5L176.137 1V5L182.176 1V5L188.216 1V5L194.255 1V5L200.294 1V5L206.333 1V5L212.373 1V5L218.412 1V5L224.451 1V5L230.49 1V5L236.529 1V5L242.569 1V5L248.608 1V5L254.647 1V5L260.686 1V5L266.726 1V5L272.765 1V5L278.804 1V5L284.843 1V5L290.882 1V5L296.922 1V5L302.961 1V5L309 1" stroke="white"/>
+                                </svg>
+
+                                <li class="services-card__price-list_item">
+                                    <div class="services-card-price__text">
+                                        от 100000 € до 150000 €
+                                    </div>
+                                    <div class="services-card-price__title">
+                                        299 €
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="services-card__price-item">
+                            <img src="images/car-small.png" alt="Shall">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="services-card">
+                <a href="#" class="services-card__link">
+                    <div class="services-card__title">
+                        Покупка авто
+                    </div>
+                    <div class="services-card__price">
+                        <div class="services-card__price-item">
+                            <div class="services-card_price__text">
+                                под клиента в страны СНГ (Расчет от цены с НДС). Доставка авто не в страны ЕС расчитывается индивидуально
+                            </div>
+                            <div class="services-card_price__text">
+                                <span>6%</span> от стоимости авто
+                            </div>
+                        </div>
+                        <div class="services-card__price-item">
+                            <img src="images/small-car2.png" alt="Shall">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="services-slider__wrapper">
+        <div class="services-slider__container">
+            <div class="swiper services-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide services-slide">
+                        <div class="services-slide__content">
+                            <div class="services-slide__text">
+                                <div class="services-slide__title">
+                                    Консультация
+                                </div>
+                                <div class="services-slide__text">
+
+                                </div>
+                            </div>
+                            <div class="services-slide__price">
+                                1,5 € / км
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="185" viewBox="0 0 6 165" fill="none">
+                            <path d="M1 1L5 7.03922L1 7.03921L5 13.0784L0.999999 13.0784L5 19.1176L0.999999 19.1176L5 25.1569L0.999999 25.1569L5 31.1961L0.999999 31.1961L5 37.2353L0.999998 37.2353L5 43.2745L0.999998 43.2745L5 49.3137L0.999998 49.3137L5 55.3529L0.999998 55.3529L5 61.3922L0.999997 61.3922L5 67.4314L0.999997 67.4314L5 73.4706L0.999997 73.4706L5 79.5098L0.999997 79.5098L5 85.549L0.999996 85.549L5 91.5882L0.999996 91.5882L5 97.6274L0.999996 97.6274L5 103.667L0.999996 103.667L5 109.706L0.999995 109.706L4.99999 115.745L0.999995 115.745L4.99999 121.784L0.999995 121.784L4.99999 127.824L0.999994 127.824L4.99999 133.863L0.999994 133.863L4.99999 139.902L0.999994 139.902L4.99999 145.941L0.999994 145.941L4.99999 151.98L0.999993 151.98L4.99999 158.02L0.999993 158.02L4.99999 164.059L0.999993 164.059" stroke="#D8E0E3"/>
+                        </svg>
+                    </div>
+
+                    <div class="swiper-slide services-slide">
+                        <div class="services-slide__content">
+                            <div class="services-slide__text">
+                                <div class="services-slide__title">
+                                    Экспресс проверка
+                                </div>
+                                <div class="services-slide__text">
+
+                                </div>
+                            </div>
+                            <div class="services-slide__price">
+                                1,5 € / км
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="185" viewBox="0 0 6 165" fill="none">
+                            <path d="M1 1L5 7.03922L1 7.03921L5 13.0784L0.999999 13.0784L5 19.1176L0.999999 19.1176L5 25.1569L0.999999 25.1569L5 31.1961L0.999999 31.1961L5 37.2353L0.999998 37.2353L5 43.2745L0.999998 43.2745L5 49.3137L0.999998 49.3137L5 55.3529L0.999998 55.3529L5 61.3922L0.999997 61.3922L5 67.4314L0.999997 67.4314L5 73.4706L0.999997 73.4706L5 79.5098L0.999997 79.5098L5 85.549L0.999996 85.549L5 91.5882L0.999996 91.5882L5 97.6274L0.999996 97.6274L5 103.667L0.999996 103.667L5 109.706L0.999995 109.706L4.99999 115.745L0.999995 115.745L4.99999 121.784L0.999995 121.784L4.99999 127.824L0.999994 127.824L4.99999 133.863L0.999994 133.863L4.99999 139.902L0.999994 139.902L4.99999 145.941L0.999994 145.941L4.99999 151.98L0.999993 151.98L4.99999 158.02L0.999993 158.02L4.99999 164.059L0.999993 164.059" stroke="#D8E0E3"/>
+                        </svg>
+                    </div>
+
+                    <div class="swiper-slide services-slide">
+                        <div class="services-slide__content">
+                            <div class="services-slide__text">
+                                <div class="services-slide__title">
+                                    Дорога от представительства до места осмотра
+                                </div>
+                                <div class="services-slide__text">
+                                    оплачивается отдельно (расчет в одну сторону)
+                                </div>
+                            </div>
+                            <div class="services-slide__price">
+                                190 €
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="185" viewBox="0 0 6 165" fill="none">
+                            <path d="M1 1L5 7.03922L1 7.03921L5 13.0784L0.999999 13.0784L5 19.1176L0.999999 19.1176L5 25.1569L0.999999 25.1569L5 31.1961L0.999999 31.1961L5 37.2353L0.999998 37.2353L5 43.2745L0.999998 43.2745L5 49.3137L0.999998 49.3137L5 55.3529L0.999998 55.3529L5 61.3922L0.999997 61.3922L5 67.4314L0.999997 67.4314L5 73.4706L0.999997 73.4706L5 79.5098L0.999997 79.5098L5 85.549L0.999996 85.549L5 91.5882L0.999996 91.5882L5 97.6274L0.999996 97.6274L5 103.667L0.999996 103.667L5 109.706L0.999995 109.706L4.99999 115.745L0.999995 115.745L4.99999 121.784L0.999995 121.784L4.99999 127.824L0.999994 127.824L4.99999 133.863L0.999994 133.863L4.99999 139.902L0.999994 139.902L4.99999 145.941L0.999994 145.941L4.99999 151.98L0.999993 151.98L4.99999 158.02L0.999993 158.02L4.99999 164.059L0.999993 164.059" stroke="#D8E0E3"/>
+                        </svg>
+                    </div>
+
+                    <div class="swiper-slide services-slide">
+                        <div class="services-slide__content">
+                            <div class="services-slide__text">
+                                <div class="services-slide__title">
+                                    Торг
+                                </div>
+                                <div class="services-slide__text">
+
+                                </div>
+                            </div>
+                            <div class="services-slide__price">
+                                30% <span>от торга</span>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="185" viewBox="0 0 6 165" fill="none">
+                            <path d="M1 1L5 7.03922L1 7.03921L5 13.0784L0.999999 13.0784L5 19.1176L0.999999 19.1176L5 25.1569L0.999999 25.1569L5 31.1961L0.999999 31.1961L5 37.2353L0.999998 37.2353L5 43.2745L0.999998 43.2745L5 49.3137L0.999998 49.3137L5 55.3529L0.999998 55.3529L5 61.3922L0.999997 61.3922L5 67.4314L0.999997 67.4314L5 73.4706L0.999997 73.4706L5 79.5098L0.999997 79.5098L5 85.549L0.999996 85.549L5 91.5882L0.999996 91.5882L5 97.6274L0.999996 97.6274L5 103.667L0.999996 103.667L5 109.706L0.999995 109.706L4.99999 115.745L0.999995 115.745L4.99999 121.784L0.999995 121.784L4.99999 127.824L0.999994 127.824L4.99999 133.863L0.999994 133.863L4.99999 139.902L0.999994 139.902L4.99999 145.941L0.999994 145.941L4.99999 151.98L0.999993 151.98L4.99999 158.02L0.999993 158.02L4.99999 164.059L0.999993 164.059" stroke="#D8E0E3"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-slider services__btn-prev">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.5 1.5L1.5 6M1.5 6L5.5 10.5M1.5 6L10.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="arrow-slider services__btn-next">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <div class="services-btn-slider__wrapper">
+                <div class="arrow-slider services__btn-prev">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 1.5L1.5 6M1.5 6L5.5 10.5M1.5 6L10.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="arrow-slider services__btn-next">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services-btn__wrapper">
+        <div class="services-btn" data-type="order">
+            <span>
+                Связаться с нами
+                и заказать услугу
+            </span>
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect data-type="order" width="48" height="48" rx="24" fill="#AAFF01"/>
+                <path d="M24.5 19.5L28.5 24M28.5 24L24.5 28.5M28.5 24L19.5 24" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </div>
+    </div>
+</div>
+
+        <div class="cooperation">
+    <div class="cooperation__mob">
+        <img src="images/coop-bg-mob.png" alt="shall">
+    </div>
+    <div class="cooperation__container">
+        <div class="cooperation__wrapper">
+            <div class="cooperation__title">
+                Сотрудничество с Любовью
+            </div>
+            <div class="cooperation__text">
+                Если у Вас компания по продаже автомобилей, то для Вас у нас есть выгодные условия по услугам проверки автомобилей перед покупкой для Ваших клиентов. Так же мы можем привозить автомобили вашей компании под ключ ( подбор, оформление, растаможка, доставка)
+            </div>
+
+            
+                <div class="cooperation__text">
+                    Свяжитесь с нами по электронной почте или напишите в любой из мессенджеров
+                    <a href="tel:+421903385979">+421903385979</a>
+                </div>
+                <div class="cooperation-social">
+                    <a href="viber://chat?number=421903385979">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.279 8.0139C20.0366 8.02861 21.8375 9.0446 22.2547 9.38496C23.6411 10.4507 24.3473 13.001 23.8309 16.7371C23.381 19.9998 20.9434 20.5101 20.0629 20.6944C19.9652 20.7149 19.8867 20.7313 19.8322 20.747C19.6006 20.815 17.4475 21.2948 14.7413 21.1361C14.7413 21.1361 12.7243 23.3209 12.0943 23.8889C11.996 23.977 11.8803 24.0128 11.8032 23.996C11.6959 23.9721 11.6661 23.8568 11.6661 23.6882C11.6679 23.4472 11.6834 20.7042 11.6834 20.7042C7.87428 19.7541 7.96273 16.2693 8.01294 14.2912C8.01466 14.2232 8.01634 14.157 8.01782 14.0927C8.06222 12.1587 8.46722 10.5738 9.6694 9.50804C11.8294 7.7514 16.279 8.0139 16.279 8.0139ZM15.426 10.0168C15.2956 10.0159 15.1891 10.122 15.1882 10.2538C15.1872 10.3856 15.2923 10.4931 15.4227 10.4941C16.6803 10.5029 17.7195 10.9213 18.5564 11.7454C19.3855 12.5618 19.8166 13.6871 19.8276 15.1508C19.8286 15.2826 19.9352 15.3886 20.0657 15.3876C20.1961 15.3866 20.3011 15.279 20.3001 15.1472C20.2883 13.5852 19.8244 12.3275 18.8862 11.4036C17.9558 10.4875 16.797 10.0265 15.426 10.0168ZM15.6052 11.476C15.6148 11.3445 15.728 11.2458 15.8581 11.2554C16.8501 11.3287 17.6486 11.6711 18.2302 12.3124L18.2303 12.3125C18.8056 12.9475 19.0791 13.7375 19.0592 14.664C19.0564 14.7958 18.9484 14.9003 18.8179 14.8974C18.6875 14.8946 18.584 14.7854 18.5869 14.6537C18.6044 13.8366 18.3665 13.1697 17.8818 12.6347C17.3985 12.1019 16.7231 11.7978 15.8236 11.7314C15.6935 11.7217 15.5957 11.6074 15.6052 11.476ZM15.9631 12.7615C15.9699 12.6299 16.081 12.5288 16.2113 12.5356C16.6987 12.5613 17.1043 12.7104 17.3932 13.012C17.6809 13.3126 17.8219 13.7324 17.8467 14.2366C17.8532 14.3682 17.7528 14.4802 17.6225 14.4867C17.4922 14.4933 17.3813 14.3918 17.3748 14.2602C17.3536 13.8286 17.2364 13.5348 17.0535 13.3438C16.8718 13.154 16.5944 13.0337 16.1867 13.0122C16.0564 13.0054 15.9563 12.8931 15.9631 12.7615ZM15.9407 16.9371C15.9407 16.9371 16.2399 16.9624 16.401 16.764L16.715 16.3689C16.8665 16.173 17.232 16.0481 17.59 16.2475C17.8583 16.4005 18.1187 16.5668 18.3704 16.7458C18.5614 16.8863 18.9134 17.1762 19.0447 17.2845L19.0447 17.2845C19.0767 17.3108 19.0956 17.3264 19.0959 17.3264C19.3277 17.522 19.3812 17.8093 19.2234 18.1122C19.2234 18.1131 19.2231 18.1144 19.2227 18.1156L19.2227 18.1156C19.2224 18.1167 19.2222 18.1178 19.2222 18.1185C19.0484 18.4198 18.8277 18.6914 18.5685 18.9233C18.567 18.9241 18.5662 18.9249 18.5655 18.9257C18.5648 18.9264 18.5641 18.9271 18.5627 18.9278C18.3375 19.116 18.1163 19.2229 17.899 19.2487C17.867 19.2543 17.8345 19.2563 17.8021 19.2547C17.7063 19.2557 17.6109 19.241 17.5198 19.2113L17.5128 19.201C17.178 19.1066 16.6191 18.8703 15.6883 18.3568C15.1496 18.0632 14.6368 17.7245 14.1554 17.3443C13.914 17.1539 13.6838 16.9497 13.4659 16.7329L13.4427 16.7097L13.4195 16.6865L13.3962 16.6632C13.391 16.6582 13.3859 16.653 13.3808 16.6478C13.3782 16.6452 13.3756 16.6426 13.373 16.64C13.1562 16.4221 12.952 16.1919 12.7616 15.9506C12.3814 15.4692 12.0427 14.9566 11.749 14.4181C11.2355 13.4871 10.9992 12.9287 10.9047 12.5935L10.8944 12.5864C10.8648 12.4953 10.8502 12.4 10.8512 12.3042C10.8495 12.2718 10.8514 12.2393 10.857 12.2073C10.8841 11.9903 10.9913 11.769 11.1784 11.5431C11.1791 11.5418 11.1799 11.5411 11.1806 11.5404C11.1814 11.5396 11.1822 11.5389 11.1829 11.5373C11.4148 11.2781 11.6865 11.0576 11.9878 10.884C11.9885 10.884 11.9896 10.8837 11.9907 10.8833C11.9919 10.8829 11.9932 10.8825 11.9941 10.8825C12.297 10.7247 12.5843 10.7782 12.7797 11.0087C12.7812 11.0102 13.1864 11.4967 13.3604 11.7342C13.5394 11.9861 13.7058 12.2467 13.8587 12.5152C14.0582 12.8729 13.9332 13.2392 13.7373 13.3902L13.3422 13.7042C13.1428 13.8653 13.169 14.1644 13.169 14.1644C13.169 14.1644 13.7542 16.379 15.9407 16.9371Z" fill="#8513AC"/>
+                        </svg>
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send?phone=421903385979">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white"/>
+                            <g clip-path="url(#clip0_330_1271)">
+                                <path d="M19.8392 17.1938C19.8081 17.1789 18.6416 16.6045 18.4344 16.5299C18.3497 16.4995 18.2591 16.4698 18.1627 16.4698C18.0052 16.4698 17.8728 16.5483 17.7698 16.7025C17.6533 16.8757 17.3005 17.288 17.1916 17.4112C17.1773 17.4274 17.1579 17.4469 17.1463 17.4469C17.1358 17.4469 16.9553 17.3725 16.9006 17.3488C15.6494 16.8052 14.6996 15.4982 14.5694 15.2778C14.5508 15.2461 14.55 15.2317 14.5498 15.2317C14.5544 15.2149 14.5965 15.1727 14.6182 15.151C14.6817 15.0881 14.7506 15.0052 14.8172 14.9251C14.8487 14.8871 14.8803 14.8491 14.9113 14.8132C15.0079 14.7008 15.0509 14.6136 15.1008 14.5125L15.1269 14.4599C15.2487 14.218 15.1447 14.0139 15.1111 13.9479C15.0835 13.8928 14.591 12.7041 14.5386 12.5792C14.4127 12.2779 14.2463 12.1376 14.0151 12.1376C13.9936 12.1376 14.0151 12.1376 13.9251 12.1414C13.8156 12.146 13.2189 12.2245 12.9551 12.3908C12.6754 12.5672 12.2021 13.1294 12.2021 14.118C12.2021 15.0078 12.7668 15.848 13.0093 16.1675C13.0153 16.1756 13.0264 16.1919 13.0424 16.2154C13.9709 17.5714 15.1283 18.5763 16.3017 19.045C17.4313 19.4962 17.9662 19.5484 18.2703 19.5484H18.2704C18.3981 19.5484 18.5004 19.5383 18.5907 19.5295L18.6479 19.524C19.0381 19.4894 19.8957 19.045 20.0908 18.503C20.2444 18.076 20.285 17.6095 20.1827 17.4402C20.1127 17.3251 19.992 17.2672 19.8392 17.1938Z" fill="#8513AC"/>
+                                <path d="M16.142 8C11.8087 8 8.28331 11.4989 8.28331 15.7996C8.28331 17.1906 8.65557 18.5523 9.36077 19.7439L8.011 23.7255C7.98586 23.7997 8.00456 23.8818 8.05947 23.9377C8.0991 23.9782 8.15287 24 8.20778 24C8.22882 24 8.25001 23.9968 8.27069 23.9902L12.4224 22.671C13.5585 23.278 14.8425 23.5984 16.1421 23.5984C20.4749 23.5984 24 20.0999 24 15.7996C24 11.4989 20.4749 8 16.142 8ZM16.142 21.9737C14.9192 21.9737 13.7348 21.6206 12.7168 20.9526C12.6825 20.9301 12.6428 20.9185 12.6028 20.9185C12.5816 20.9185 12.5605 20.9218 12.5398 20.9283L10.4601 21.5894L11.1315 19.6087C11.1532 19.5446 11.1423 19.4739 11.1023 19.4192C10.3271 18.3599 9.91723 17.1083 9.91723 15.7996C9.91723 12.3948 12.7097 9.62473 16.142 9.62473C19.5739 9.62473 22.366 12.3948 22.366 15.7996C22.366 19.2041 19.574 21.9737 16.142 21.9737Z" fill="#8513AC"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_330_1271">
+                                    <rect width="16" height="16" fill="white" transform="translate(8 8)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+
+                    <a href="https://t.me/+421903385979">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white"/>
+                            <g clip-path="url(#clip0_330_1277)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.833 10.09C22.6489 9.74647 23.5236 10.4364 23.3795 11.3099L21.6779 21.6275C21.5138 22.6223 20.4212 23.1931 19.5085 22.6973C18.7448 22.2825 17.6117 21.644 16.5905 20.9768C16.0805 20.6435 14.5191 19.5751 14.711 18.8145C14.8751 18.1642 17.5001 15.7208 19.0001 14.2676C19.5893 13.6968 19.3209 13.3671 18.6251 13.8926C16.8989 15.1964 14.1275 17.1785 13.211 17.7364C12.4024 18.2285 11.9802 18.3125 11.4766 18.2285C10.557 18.0753 9.70447 17.838 9.00841 17.5495C8.06763 17.1595 8.11345 15.8666 9.00777 15.4901L21.833 10.09Z" fill="#8513AC"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_330_1277">
+                                    <rect width="18" height="18" fill="white" transform="translate(7 7)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            
+            
+
+            
+
+        </div>
+    </div>
+</div>
+
+        <div class="cars">
+    <div class="cars__container">
+        <div class="cars-title__wrapper">
+            <h2 class="cars__title">
+                Авто в наличии
+            </h2>
+            <a href="#" class="cars__link">
+                Все предложения
+                <div class="cars-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+        <div class="cars-card__wrapper">
+            
+                <div class="car" data-type="order">
+    <div class="car__link">
+        <div class="car__img">
+            <img src="images/car3.png" alt="Shall">
+            <div class="car__img_year">
+                <span>
+                    2022
+                </span>
+            </div>
+        </div>
+        <div class="car-content">
+            <div class="car__title">
+                Volvo XC60
+            </div>
+            <div class="car-characteristic">
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_502_104)">
+                            <circle cx="9.99979" cy="9.99991" r="9.25027" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <circle cx="10" cy="10" r="0.75" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <path d="M10 9.99997L10 4.87805" stroke="#D8E0E3"/>
+                            <path d="M6.11276 12.6832L14.0044 12.6836" stroke="#D8E0E3"/>
+                            <path d="M1.43408 9.99994H3.43408" stroke="#D8E0E3"/>
+                            <path d="M3.76487 4.18266L5.20215 5.57343" stroke="#D8E0E3"/>
+                            <path d="M16.1886 3.90989L14.7979 5.34717" stroke="#D8E0E3"/>
+                            <path d="M10 1.36157L10 3.36157" stroke="#D8E0E3"/>
+                            <path d="M16.603 9.99994H18.603" stroke="#D8E0E3"/>
+                            <path d="M14.8928 14.4278L16.3301 15.8185" stroke="#D8E0E3"/>
+                            <path d="M5.2018 14.4278L3.81104 15.8651" stroke="#D8E0E3"/>
+                            <path d="M10 16.5767L10 18.5767" stroke="#D8E0E3"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_104">
+                                <rect width="20" height="20" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    8 000 км
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                        <g clip-path="url(#clip0_502_120)">
+                            <path d="M1.44043 7.44184V12.1533M1.44043 16.7828V12.1533M1.44043 12.1533H5.02416M5.02416 12.1533V7.23435L6.36936 5.56243H9.94868M5.02416 12.1533V15.4759H7.82199L9.50096 17.5627H15.8034V11.9981M9.94868 5.56243H15.8034V11.9981M9.94868 5.56243V1.31703M9.94868 1.31703L6.36936 1.31702M9.94868 1.31703H13.5864M15.8034 11.9981H19.5594M19.5594 11.9981V6.32146M19.5594 11.9981V17.5627" stroke="#D8E0E3" stroke-width="1.5"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_120">
+                                <rect width="20" height="20" fill="white" transform="translate(0.5)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    2.0 л.
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M3.03 5.07799C3.01852 5.11362 3.01179 5.1506 3.01 5.18799V9.98799C3.01 10.1471 3.07321 10.2997 3.18574 10.4123C3.29826 10.5248 3.45087 10.588 3.61 10.588H9.41V14.788C9.41 14.828 9.43 14.858 9.43 14.898C9.08222 15.0333 8.79267 15.2858 8.61142 15.612C8.43017 15.9382 8.36863 16.3175 8.43744 16.6842C8.50626 17.051 8.7011 17.3821 8.98826 17.6204C9.27542 17.8587 9.63684 17.9892 10.01 17.9892C10.3832 17.9892 10.7446 17.8587 11.0317 17.6204C11.3189 17.3821 11.5137 17.051 11.5826 16.6842C11.6514 16.3175 11.5898 15.9382 11.4086 15.612C11.2273 15.2858 10.9378 15.0333 10.59 14.898C10.6015 14.8624 10.6082 14.8254 10.61 14.788V10.588H15.8V14.788C15.8 14.828 15.82 14.858 15.82 14.898C15.4722 15.0333 15.1827 15.2858 15.0014 15.612C14.8202 15.9382 14.7586 16.3175 14.8274 16.6842C14.8963 17.051 15.0911 17.3821 15.3783 17.6204C15.6654 17.8587 16.0268 17.9892 16.4 17.9892C16.7732 17.9892 17.1346 17.8587 17.4217 17.6204C17.7089 17.3821 17.9037 17.051 17.9726 16.6842C18.0414 16.3175 17.9798 15.9382 17.7986 15.612C17.6173 15.2858 17.3278 15.0333 16.98 14.898C16.9915 14.8624 16.9982 14.8254 17 14.788V5.18799C17 5.14799 16.98 5.11799 16.98 5.07799C17.3278 4.94272 17.6173 4.69015 17.7986 4.36397C17.9798 4.03779 18.0414 3.65851 17.9726 3.29176C17.9037 2.925 17.7089 2.59383 17.4217 2.35554C17.1346 2.11724 16.7732 1.98682 16.4 1.98682C16.0268 1.98682 15.6654 2.11724 15.3783 2.35554C15.0911 2.59383 14.8963 2.925 14.8274 3.29176C14.7586 3.65851 14.8202 4.03779 15.0014 4.36397C15.1827 4.69015 15.4722 4.94272 15.82 5.07799C15.8085 5.11362 15.8018 5.1506 15.8 5.18799V9.38799H10.6V5.18799C10.6 5.14799 10.58 5.11799 10.58 5.07799C10.9278 4.94272 11.2173 4.69015 11.3986 4.36397C11.5798 4.03779 11.6414 3.65851 11.5726 3.29176C11.5037 2.925 11.3089 2.59383 11.0217 2.35554C10.7346 2.11724 10.3732 1.98682 10 1.98682C9.62684 1.98682 9.26542 2.11724 8.97826 2.35554C8.6911 2.59383 8.49626 2.925 8.42744 3.29176C8.35863 3.65851 8.42017 4.03779 8.60142 4.36397C8.78267 4.69015 9.07222 4.94272 9.42 5.07799C9.40852 5.11362 9.40179 5.1506 9.4 5.18799V9.38799H4.2V5.18799C4.2 5.14799 4.18 5.11799 4.18 5.07799C4.45146 4.97241 4.68894 4.79472 4.86685 4.5641C5.04476 4.33348 5.15634 4.05867 5.18956 3.7693C5.22278 3.47994 5.17638 3.18699 5.05537 2.92205C4.93435 2.65711 4.74331 2.43024 4.50284 2.26588C4.26238 2.10152 3.98161 2.00593 3.69081 1.9894C3.40001 1.97286 3.11021 2.03603 2.85267 2.17207C2.59513 2.30812 2.37961 2.51189 2.22935 2.7614C2.07909 3.01092 1.99979 3.29672 2 3.58799C2.00239 3.91102 2.1019 4.22585 2.28559 4.49158C2.46928 4.7573 2.72865 4.96163 3.03 5.07799Z" fill="#D8E0E3"/>
+                    </svg>
+                    Автомат
+                </div>
+            </div>
+            <div class="car-price__title">
+                56 240 €
+            </div>
+            <div class="car-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="car" data-type="order">
+    <div class="car__link">
+        <div class="car__img">
+            <img src="images/car4.png" alt="Shall">
+            <div class="car__img_year">
+                <span>
+                    2023
+                </span>
+            </div>
+        </div>
+        <div class="car-content">
+            <div class="car__title">
+                Mercedes-Benz GLC-Class 300 9G-Tronic
+            </div>
+            <div class="car-characteristic">
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_502_104)">
+                            <circle cx="9.99979" cy="9.99991" r="9.25027" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <circle cx="10" cy="10" r="0.75" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <path d="M10 9.99997L10 4.87805" stroke="#D8E0E3"/>
+                            <path d="M6.11276 12.6832L14.0044 12.6836" stroke="#D8E0E3"/>
+                            <path d="M1.43408 9.99994H3.43408" stroke="#D8E0E3"/>
+                            <path d="M3.76487 4.18266L5.20215 5.57343" stroke="#D8E0E3"/>
+                            <path d="M16.1886 3.90989L14.7979 5.34717" stroke="#D8E0E3"/>
+                            <path d="M10 1.36157L10 3.36157" stroke="#D8E0E3"/>
+                            <path d="M16.603 9.99994H18.603" stroke="#D8E0E3"/>
+                            <path d="M14.8928 14.4278L16.3301 15.8185" stroke="#D8E0E3"/>
+                            <path d="M5.2018 14.4278L3.81104 15.8651" stroke="#D8E0E3"/>
+                            <path d="M10 16.5767L10 18.5767" stroke="#D8E0E3"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_104">
+                                <rect width="20" height="20" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    5 000 км
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                        <g clip-path="url(#clip0_502_120)">
+                            <path d="M1.44043 7.44184V12.1533M1.44043 16.7828V12.1533M1.44043 12.1533H5.02416M5.02416 12.1533V7.23435L6.36936 5.56243H9.94868M5.02416 12.1533V15.4759H7.82199L9.50096 17.5627H15.8034V11.9981M9.94868 5.56243H15.8034V11.9981M9.94868 5.56243V1.31703M9.94868 1.31703L6.36936 1.31702M9.94868 1.31703H13.5864M15.8034 11.9981H19.5594M19.5594 11.9981V6.32146M19.5594 11.9981V17.5627" stroke="#D8E0E3" stroke-width="1.5"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_120">
+                                <rect width="20" height="20" fill="white" transform="translate(0.5)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    2.0 л.
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M3.03 5.07799C3.01852 5.11362 3.01179 5.1506 3.01 5.18799V9.98799C3.01 10.1471 3.07321 10.2997 3.18574 10.4123C3.29826 10.5248 3.45087 10.588 3.61 10.588H9.41V14.788C9.41 14.828 9.43 14.858 9.43 14.898C9.08222 15.0333 8.79267 15.2858 8.61142 15.612C8.43017 15.9382 8.36863 16.3175 8.43744 16.6842C8.50626 17.051 8.7011 17.3821 8.98826 17.6204C9.27542 17.8587 9.63684 17.9892 10.01 17.9892C10.3832 17.9892 10.7446 17.8587 11.0317 17.6204C11.3189 17.3821 11.5137 17.051 11.5826 16.6842C11.6514 16.3175 11.5898 15.9382 11.4086 15.612C11.2273 15.2858 10.9378 15.0333 10.59 14.898C10.6015 14.8624 10.6082 14.8254 10.61 14.788V10.588H15.8V14.788C15.8 14.828 15.82 14.858 15.82 14.898C15.4722 15.0333 15.1827 15.2858 15.0014 15.612C14.8202 15.9382 14.7586 16.3175 14.8274 16.6842C14.8963 17.051 15.0911 17.3821 15.3783 17.6204C15.6654 17.8587 16.0268 17.9892 16.4 17.9892C16.7732 17.9892 17.1346 17.8587 17.4217 17.6204C17.7089 17.3821 17.9037 17.051 17.9726 16.6842C18.0414 16.3175 17.9798 15.9382 17.7986 15.612C17.6173 15.2858 17.3278 15.0333 16.98 14.898C16.9915 14.8624 16.9982 14.8254 17 14.788V5.18799C17 5.14799 16.98 5.11799 16.98 5.07799C17.3278 4.94272 17.6173 4.69015 17.7986 4.36397C17.9798 4.03779 18.0414 3.65851 17.9726 3.29176C17.9037 2.925 17.7089 2.59383 17.4217 2.35554C17.1346 2.11724 16.7732 1.98682 16.4 1.98682C16.0268 1.98682 15.6654 2.11724 15.3783 2.35554C15.0911 2.59383 14.8963 2.925 14.8274 3.29176C14.7586 3.65851 14.8202 4.03779 15.0014 4.36397C15.1827 4.69015 15.4722 4.94272 15.82 5.07799C15.8085 5.11362 15.8018 5.1506 15.8 5.18799V9.38799H10.6V5.18799C10.6 5.14799 10.58 5.11799 10.58 5.07799C10.9278 4.94272 11.2173 4.69015 11.3986 4.36397C11.5798 4.03779 11.6414 3.65851 11.5726 3.29176C11.5037 2.925 11.3089 2.59383 11.0217 2.35554C10.7346 2.11724 10.3732 1.98682 10 1.98682C9.62684 1.98682 9.26542 2.11724 8.97826 2.35554C8.6911 2.59383 8.49626 2.925 8.42744 3.29176C8.35863 3.65851 8.42017 4.03779 8.60142 4.36397C8.78267 4.69015 9.07222 4.94272 9.42 5.07799C9.40852 5.11362 9.40179 5.1506 9.4 5.18799V9.38799H4.2V5.18799C4.2 5.14799 4.18 5.11799 4.18 5.07799C4.45146 4.97241 4.68894 4.79472 4.86685 4.5641C5.04476 4.33348 5.15634 4.05867 5.18956 3.7693C5.22278 3.47994 5.17638 3.18699 5.05537 2.92205C4.93435 2.65711 4.74331 2.43024 4.50284 2.26588C4.26238 2.10152 3.98161 2.00593 3.69081 1.9894C3.40001 1.97286 3.11021 2.03603 2.85267 2.17207C2.59513 2.30812 2.37961 2.51189 2.22935 2.7614C2.07909 3.01092 1.99979 3.29672 2 3.58799C2.00239 3.91102 2.1019 4.22585 2.28559 4.49158C2.46928 4.7573 2.72865 4.96163 3.03 5.07799Z" fill="#D8E0E3"/>
+                    </svg>
+                    Автомат
+                </div>
+            </div>
+            <div class="car-price__title">
+                94 600 €
+            </div>
+            <div class="car-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="car" data-type="order">
+    <div class="car__link">
+        <div class="car__img">
+            <img src="images/car5.png" alt="Shall">
+            <div class="car__img_year">
+                <span>
+                    2015
+                </span>
+            </div>
+        </div>
+        <div class="car-content">
+            <div class="car__title">
+                Porsche Macan
+            </div>
+            <div class="car-characteristic">
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_502_104)">
+                            <circle cx="9.99979" cy="9.99991" r="9.25027" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <circle cx="10" cy="10" r="0.75" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <path d="M10 9.99997L10 4.87805" stroke="#D8E0E3"/>
+                            <path d="M6.11276 12.6832L14.0044 12.6836" stroke="#D8E0E3"/>
+                            <path d="M1.43408 9.99994H3.43408" stroke="#D8E0E3"/>
+                            <path d="M3.76487 4.18266L5.20215 5.57343" stroke="#D8E0E3"/>
+                            <path d="M16.1886 3.90989L14.7979 5.34717" stroke="#D8E0E3"/>
+                            <path d="M10 1.36157L10 3.36157" stroke="#D8E0E3"/>
+                            <path d="M16.603 9.99994H18.603" stroke="#D8E0E3"/>
+                            <path d="M14.8928 14.4278L16.3301 15.8185" stroke="#D8E0E3"/>
+                            <path d="M5.2018 14.4278L3.81104 15.8651" stroke="#D8E0E3"/>
+                            <path d="M10 16.5767L10 18.5767" stroke="#D8E0E3"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_104">
+                                <rect width="20" height="20" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    90 000 км
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                        <g clip-path="url(#clip0_502_120)">
+                            <path d="M1.44043 7.44184V12.1533M1.44043 16.7828V12.1533M1.44043 12.1533H5.02416M5.02416 12.1533V7.23435L6.36936 5.56243H9.94868M5.02416 12.1533V15.4759H7.82199L9.50096 17.5627H15.8034V11.9981M9.94868 5.56243H15.8034V11.9981M9.94868 5.56243V1.31703M9.94868 1.31703L6.36936 1.31702M9.94868 1.31703H13.5864M15.8034 11.9981H19.5594M19.5594 11.9981V6.32146M19.5594 11.9981V17.5627" stroke="#D8E0E3" stroke-width="1.5"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_120">
+                                <rect width="20" height="20" fill="white" transform="translate(0.5)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    1.6 л.
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M3.03 5.07799C3.01852 5.11362 3.01179 5.1506 3.01 5.18799V9.98799C3.01 10.1471 3.07321 10.2997 3.18574 10.4123C3.29826 10.5248 3.45087 10.588 3.61 10.588H9.41V14.788C9.41 14.828 9.43 14.858 9.43 14.898C9.08222 15.0333 8.79267 15.2858 8.61142 15.612C8.43017 15.9382 8.36863 16.3175 8.43744 16.6842C8.50626 17.051 8.7011 17.3821 8.98826 17.6204C9.27542 17.8587 9.63684 17.9892 10.01 17.9892C10.3832 17.9892 10.7446 17.8587 11.0317 17.6204C11.3189 17.3821 11.5137 17.051 11.5826 16.6842C11.6514 16.3175 11.5898 15.9382 11.4086 15.612C11.2273 15.2858 10.9378 15.0333 10.59 14.898C10.6015 14.8624 10.6082 14.8254 10.61 14.788V10.588H15.8V14.788C15.8 14.828 15.82 14.858 15.82 14.898C15.4722 15.0333 15.1827 15.2858 15.0014 15.612C14.8202 15.9382 14.7586 16.3175 14.8274 16.6842C14.8963 17.051 15.0911 17.3821 15.3783 17.6204C15.6654 17.8587 16.0268 17.9892 16.4 17.9892C16.7732 17.9892 17.1346 17.8587 17.4217 17.6204C17.7089 17.3821 17.9037 17.051 17.9726 16.6842C18.0414 16.3175 17.9798 15.9382 17.7986 15.612C17.6173 15.2858 17.3278 15.0333 16.98 14.898C16.9915 14.8624 16.9982 14.8254 17 14.788V5.18799C17 5.14799 16.98 5.11799 16.98 5.07799C17.3278 4.94272 17.6173 4.69015 17.7986 4.36397C17.9798 4.03779 18.0414 3.65851 17.9726 3.29176C17.9037 2.925 17.7089 2.59383 17.4217 2.35554C17.1346 2.11724 16.7732 1.98682 16.4 1.98682C16.0268 1.98682 15.6654 2.11724 15.3783 2.35554C15.0911 2.59383 14.8963 2.925 14.8274 3.29176C14.7586 3.65851 14.8202 4.03779 15.0014 4.36397C15.1827 4.69015 15.4722 4.94272 15.82 5.07799C15.8085 5.11362 15.8018 5.1506 15.8 5.18799V9.38799H10.6V5.18799C10.6 5.14799 10.58 5.11799 10.58 5.07799C10.9278 4.94272 11.2173 4.69015 11.3986 4.36397C11.5798 4.03779 11.6414 3.65851 11.5726 3.29176C11.5037 2.925 11.3089 2.59383 11.0217 2.35554C10.7346 2.11724 10.3732 1.98682 10 1.98682C9.62684 1.98682 9.26542 2.11724 8.97826 2.35554C8.6911 2.59383 8.49626 2.925 8.42744 3.29176C8.35863 3.65851 8.42017 4.03779 8.60142 4.36397C8.78267 4.69015 9.07222 4.94272 9.42 5.07799C9.40852 5.11362 9.40179 5.1506 9.4 5.18799V9.38799H4.2V5.18799C4.2 5.14799 4.18 5.11799 4.18 5.07799C4.45146 4.97241 4.68894 4.79472 4.86685 4.5641C5.04476 4.33348 5.15634 4.05867 5.18956 3.7693C5.22278 3.47994 5.17638 3.18699 5.05537 2.92205C4.93435 2.65711 4.74331 2.43024 4.50284 2.26588C4.26238 2.10152 3.98161 2.00593 3.69081 1.9894C3.40001 1.97286 3.11021 2.03603 2.85267 2.17207C2.59513 2.30812 2.37961 2.51189 2.22935 2.7614C2.07909 3.01092 1.99979 3.29672 2 3.58799C2.00239 3.91102 2.1019 4.22585 2.28559 4.49158C2.46928 4.7573 2.72865 4.96163 3.03 5.07799Z" fill="#D8E0E3"/>
+                    </svg>
+                    Автомат
+                </div>
+            </div>
+            <div class="car-price__title">
+                76 500 €
+            </div>
+            <div class="car-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="car" data-type="order">
+    <div class="car__link">
+        <div class="car__img">
+            <img src="images/car8.png" alt="Shall">
+            <div class="car__img_year">
+                <span>
+                    
+                </span>
+            </div>
+        </div>
+        <div class="car-content">
+            <div class="car__title">
+                Наше предложение Вас заинтересовало? Свяжитесь с нами!
+            </div>
+            <div class="car-characteristic">
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_502_104)">
+                            <circle cx="9.99979" cy="9.99991" r="9.25027" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <circle cx="10" cy="10" r="0.75" stroke="#D8E0E3" stroke-width="1.5"/>
+                            <path d="M10 9.99997L10 4.87805" stroke="#D8E0E3"/>
+                            <path d="M6.11276 12.6832L14.0044 12.6836" stroke="#D8E0E3"/>
+                            <path d="M1.43408 9.99994H3.43408" stroke="#D8E0E3"/>
+                            <path d="M3.76487 4.18266L5.20215 5.57343" stroke="#D8E0E3"/>
+                            <path d="M16.1886 3.90989L14.7979 5.34717" stroke="#D8E0E3"/>
+                            <path d="M10 1.36157L10 3.36157" stroke="#D8E0E3"/>
+                            <path d="M16.603 9.99994H18.603" stroke="#D8E0E3"/>
+                            <path d="M14.8928 14.4278L16.3301 15.8185" stroke="#D8E0E3"/>
+                            <path d="M5.2018 14.4278L3.81104 15.8651" stroke="#D8E0E3"/>
+                            <path d="M10 16.5767L10 18.5767" stroke="#D8E0E3"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_104">
+                                <rect width="20" height="20" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    8 000 км
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                        <g clip-path="url(#clip0_502_120)">
+                            <path d="M1.44043 7.44184V12.1533M1.44043 16.7828V12.1533M1.44043 12.1533H5.02416M5.02416 12.1533V7.23435L6.36936 5.56243H9.94868M5.02416 12.1533V15.4759H7.82199L9.50096 17.5627H15.8034V11.9981M9.94868 5.56243H15.8034V11.9981M9.94868 5.56243V1.31703M9.94868 1.31703L6.36936 1.31702M9.94868 1.31703H13.5864M15.8034 11.9981H19.5594M19.5594 11.9981V6.32146M19.5594 11.9981V17.5627" stroke="#D8E0E3" stroke-width="1.5"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_502_120">
+                                <rect width="20" height="20" fill="white" transform="translate(0.5)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    2.0 л.
+                </div>
+                <div class="car-characteristic__text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M3.03 5.07799C3.01852 5.11362 3.01179 5.1506 3.01 5.18799V9.98799C3.01 10.1471 3.07321 10.2997 3.18574 10.4123C3.29826 10.5248 3.45087 10.588 3.61 10.588H9.41V14.788C9.41 14.828 9.43 14.858 9.43 14.898C9.08222 15.0333 8.79267 15.2858 8.61142 15.612C8.43017 15.9382 8.36863 16.3175 8.43744 16.6842C8.50626 17.051 8.7011 17.3821 8.98826 17.6204C9.27542 17.8587 9.63684 17.9892 10.01 17.9892C10.3832 17.9892 10.7446 17.8587 11.0317 17.6204C11.3189 17.3821 11.5137 17.051 11.5826 16.6842C11.6514 16.3175 11.5898 15.9382 11.4086 15.612C11.2273 15.2858 10.9378 15.0333 10.59 14.898C10.6015 14.8624 10.6082 14.8254 10.61 14.788V10.588H15.8V14.788C15.8 14.828 15.82 14.858 15.82 14.898C15.4722 15.0333 15.1827 15.2858 15.0014 15.612C14.8202 15.9382 14.7586 16.3175 14.8274 16.6842C14.8963 17.051 15.0911 17.3821 15.3783 17.6204C15.6654 17.8587 16.0268 17.9892 16.4 17.9892C16.7732 17.9892 17.1346 17.8587 17.4217 17.6204C17.7089 17.3821 17.9037 17.051 17.9726 16.6842C18.0414 16.3175 17.9798 15.9382 17.7986 15.612C17.6173 15.2858 17.3278 15.0333 16.98 14.898C16.9915 14.8624 16.9982 14.8254 17 14.788V5.18799C17 5.14799 16.98 5.11799 16.98 5.07799C17.3278 4.94272 17.6173 4.69015 17.7986 4.36397C17.9798 4.03779 18.0414 3.65851 17.9726 3.29176C17.9037 2.925 17.7089 2.59383 17.4217 2.35554C17.1346 2.11724 16.7732 1.98682 16.4 1.98682C16.0268 1.98682 15.6654 2.11724 15.3783 2.35554C15.0911 2.59383 14.8963 2.925 14.8274 3.29176C14.7586 3.65851 14.8202 4.03779 15.0014 4.36397C15.1827 4.69015 15.4722 4.94272 15.82 5.07799C15.8085 5.11362 15.8018 5.1506 15.8 5.18799V9.38799H10.6V5.18799C10.6 5.14799 10.58 5.11799 10.58 5.07799C10.9278 4.94272 11.2173 4.69015 11.3986 4.36397C11.5798 4.03779 11.6414 3.65851 11.5726 3.29176C11.5037 2.925 11.3089 2.59383 11.0217 2.35554C10.7346 2.11724 10.3732 1.98682 10 1.98682C9.62684 1.98682 9.26542 2.11724 8.97826 2.35554C8.6911 2.59383 8.49626 2.925 8.42744 3.29176C8.35863 3.65851 8.42017 4.03779 8.60142 4.36397C8.78267 4.69015 9.07222 4.94272 9.42 5.07799C9.40852 5.11362 9.40179 5.1506 9.4 5.18799V9.38799H4.2V5.18799C4.2 5.14799 4.18 5.11799 4.18 5.07799C4.45146 4.97241 4.68894 4.79472 4.86685 4.5641C5.04476 4.33348 5.15634 4.05867 5.18956 3.7693C5.22278 3.47994 5.17638 3.18699 5.05537 2.92205C4.93435 2.65711 4.74331 2.43024 4.50284 2.26588C4.26238 2.10152 3.98161 2.00593 3.69081 1.9894C3.40001 1.97286 3.11021 2.03603 2.85267 2.17207C2.59513 2.30812 2.37961 2.51189 2.22935 2.7614C2.07909 3.01092 1.99979 3.29672 2 3.58799C2.00239 3.91102 2.1019 4.22585 2.28559 4.49158C2.46928 4.7573 2.72865 4.96163 3.03 5.07799Z" fill="#D8E0E3"/>
+                    </svg>
+                    Автомат
+                </div>
+            </div>
+            <div class="car-price__title">
+                56 240 €
+            </div>
+            <div class="car-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+            
+
+        </div>
+    </div>
+</div>
+
+      </main>
+      <footer class="footer">
+  <div class="footer__container">
+    <div class="footer-sociall">
+      <a href="https://www.facebook.com/autowithIove/">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M16.8744 17.2603V22.7764H14.3405V17.2603H12.2354V15.0236H14.3405V14.2098C14.3405 11.1886 15.6026 9.59998 18.2729 9.59998C19.0916 9.59998 19.2963 9.73155 19.7446 9.83875V12.0511C19.2427 11.9634 19.1013 11.9146 18.5799 11.9146C17.9611 11.9146 17.6297 12.0901 17.3276 12.436C17.0255 12.782 16.8744 13.3814 16.8744 14.239V15.0284H19.7446L18.9746 17.2651H16.8744V17.2603Z" fill="#8513AC"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/autowithlove/?igshid=MzNlNGNkZWQ4Mg==">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M19.7594 21.8353H12.2408C11.2018 21.8353 10.353 20.9865 10.353 19.9476V12.429C10.353 11.39 11.2018 10.5412 12.2408 10.5412H19.7594C20.7983 10.5412 21.6471 11.39 21.6471 12.429V19.9476C21.6471 20.9912 20.803 21.8353 19.7594 21.8353Z" fill="#8513AC"/>
+          <path d="M16.0024 19.0895C15.2278 19.0895 14.4996 18.788 13.9523 18.2407C13.405 17.6934 13.1035 16.9652 13.1035 16.1906C13.1035 15.416 13.405 14.6878 13.9523 14.1405C14.4996 13.5932 15.2278 13.2917 16.0024 13.2917C16.777 13.2917 17.5052 13.5932 18.0525 14.1405C18.5998 14.6878 18.9013 15.416 18.9013 16.1906C18.9013 16.9652 18.5998 17.6934 18.0525 18.2407C17.5006 18.788 16.777 19.0895 16.0024 19.0895ZM16.0024 13.9086C14.7455 13.9086 13.7204 14.929 13.7204 16.1906C13.7204 17.4476 14.7408 18.4726 16.0024 18.4726C17.2594 18.4726 18.2844 17.4522 18.2844 16.1906C18.2798 14.9336 17.2594 13.9086 16.0024 13.9086Z" fill="white"/>
+          <path d="M19.4663 13.1964C19.7737 13.1964 20.0229 12.9472 20.0229 12.6398C20.0229 12.3324 19.7737 12.0832 19.4663 12.0832C19.1589 12.0832 18.9097 12.3324 18.9097 12.6398C18.9097 12.9472 19.1589 13.1964 19.4663 13.1964Z" fill="white"/>
+        </svg>
+      </a>
+      <a href="https://www.youtube.com/channel/UCwrUu_AaMzESr3XB2rMPNVQ">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M21.4857 21.203H11.0788C9.68633 21.203 8.56445 19.9715 8.56445 18.4568V13.5432C8.56445 12.0223 9.69196 10.797 11.0788 10.797H21.4857C22.8781 10.797 24 12.0285 24 13.5432V18.4568C24.0056 19.9777 22.8781 21.203 21.4857 21.203Z" fill="#8513AC"/>
+          <path d="M19.0127 15.923L14.6348 13.3985V18.4476L19.0127 15.923Z" fill="white"/>
+        </svg>
+      </a>
+      <a href="https://vk.com/autowithlove">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="16" fill="white"/>
+          <path d="M16.7145 20.9982C11.2479 20.9982 8.12992 17.2459 8 11.002H10.7383C10.8282 15.5848 12.8469 17.526 14.4459 17.9263V11.002H17.0244V14.9544C18.6034 14.7843 20.2622 12.9832 20.8218 11.002H23.4003C22.9705 13.4435 21.1717 15.2446 19.8925 15.9851C21.1717 16.5854 23.2205 18.1564 24 20.9982H21.1617C20.5521 19.097 19.0332 17.6261 17.0244 17.426V20.9982H16.7145Z" fill="#8513AC"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="footer-text__wrapper">
+      <div class="footer__text">
+        Slovakia sk Bratislava stara vajnorska 8
+      </div>
+      <div class="footer__text">
+        <a href="mailto:autowithlove@gmail.com">autowithlove@gmail.com</a>
+      </div>
+      <div class="footer__text">
+        <span>Разработка сайта:</span> <a href="https://www.imedia.by/" target="_blank">Imedia Solutions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <div class="mobile-menu">
+    <nav class="header__menu menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="/shall#car" class="menu__link">Услуги</a></li>
+            <li class="menu__item"><a href="/shall/car-catalog.html" class="menu__link">Авто в наличии</a></li>
+            <li class="menu__item"><a href="/shall/about.html" class="menu__link">О нас</a></li>
+        </ul>
+    </nav>
+    <div class="header-btn__wrapper">
+        <a href="#" class="btn header-btn btn__purple" data-type="order">Заказать услуги</a>
+        <a href="#" class="btn header-btn">Оплатить услуги</a>
+    </div>
+</div>
+
+      <div class="popup order" data-popup="order">
+    <div class="order__wrapper">
+        <div class="order__title-wrapper">
+            <div class="order__title">
+                Заказать услуги
+            </div>
+            <div class="button-close order__cross">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                    <rect x="18.4619" width="2.17571" height="26.1086" transform="rotate(45 18.4619 0)" fill="#A1A5B4"/>
+                    <rect width="2.17571" height="26.1086" transform="matrix(-0.707107 0.707107 0.707107 0.707107 1.54004 0)" fill="#A1A5B4"/>
+                </svg>
+            </div>
+        </div>
+
+
+        <div class="order__text">
+            Укажите Ваше имя, номер мобильного телефона или  электронную почту и отправьте заявку. Мы свяжемся с Вами в ближайшее время.
+        </div>
+
+        <form action="#" class="order__form popup__form">
+            <label>
+                <input type="text" class="order__input" name="name" placeholder="Имя" required>
+                <span class="input-warning">Поле заполнено неверно</span>
+            </label>
+            <label>
+                <input type="text" class="order__input" name="text" placeholder="Телефон/ электронная почта" required>
+                <span class="input-warning">Поле заполнено неверно</span>
+            </label>
+            <label>
+                <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" required>
+                <label for="happy"> <p>Я согласен с  <a href="#" target="_blank">условиями обработки персональных данных</a></p></label>
+            </label>
+            <button type="submit" class="btn order__btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
+      <div class="popup open-img__popup">
+    <div class="open-img__popup-wrapper">
+        <div class="open-img-popup__cross">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                <rect x="18.4619" width="2.17571" height="26.1086" transform="rotate(45 18.4619 0)" fill="#A1A5B4"></rect>
+                <rect width="2.17571" height="26.1086" transform="matrix(-0.707107 0.707107 0.707107 0.707107 1.54004 0)" fill="#A1A5B4"></rect>
+            </svg>
+        </div>
+        <div class="open-img-popup__content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mxCXAkWLvjc?si=U7qgkRPjwgUYxr5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <img src="" alt="shall">
+        </div>
+    </div>
+</div>
+
+    </div>
+    <script src="js/app.min.js"></script>
+
+    <script>
+      (function(doc, scr, id) { var js, fjs = doc.getElementsByTagName(scr)[0]; if (doc.getElementById(id)) return; js = doc.createElement(scr); js.id = id; js.src = 'https://contactus.nikba.com/contactus.min.js?v=1.98'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'contactus-sdk'));
+    </script>
+    <div id="contactus" call="+421903385979" call-label="Позвоните" viber="421903385979" viber-label="Напишите сообщение" whatsapp="+421903385979" whatsapp-label="Напишите сообщение" facebook="" facebook-label="" telegram="+421903385979" telegram-label="Напишите сообщение" title="Нужна помощь? Свяжитесь с нами" position="right"></div>
+  </body>
+</html>

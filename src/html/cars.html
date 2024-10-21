@@ -1,0 +1,134 @@
+<div class="cars">
+    <div class="cars__container">
+        <div class="cars-title__wrapper">
+            <h2 class="cars__title">
+                Авто в наличии
+            </h2>
+            <a href="#" class="cars__link">
+                Все предложения
+                <div class="cars-arrow">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 1.5L10.5 6M10.5 6L6.5 10.5M10.5 6L1.5 6" stroke="#272727" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+        <div class="cars-card__wrapper">
+            @@if(context.main) {
+                @@include('car.html', {
+                    "year": "2022",
+                    "img": "images/car3.png",
+                    "title": "Volvo XC60",
+                    "speed": "8 000 км",
+                    "volume": "2.0 л.",
+                    "transmission": "Автомат",
+                    "price": "56 240 €"
+                })
+                @@include('car.html', {
+                    "year": "2023",
+                    "img": "images/car4.png",
+                    "title": "Mercedes-Benz GLC-Class 300 9G-Tronic",
+                    "speed": "5 000 км",
+                    "volume": "2.0 л.",
+                    "transmission": "Автомат",
+                    "price": "94 600 €"
+                })
+                @@include('car.html', {
+                    "year": "2015",
+                    "img": "images/car5.png",
+                    "title": "Porsche Macan",
+                    "speed": "90 000 км",
+                    "volume": "1.6 л.",
+                    "transmission": "Автомат",
+                    "price": "76 500 €"
+                })
+                @@include('car.html', {
+                    "year": "",
+                    "img": "images/car8.png",
+                    "title": "Наше предложение Вас заинтересовало? Свяжитесь с нами!",
+                    "speed": "8 000 км",
+                    "volume": "2.0 л.",
+                    "transmission": "Автомат",
+                    "price": "56 240 €"
+                })
+            }
+
+            @@if(context.catalog) {
+                @@include('car.html', {
+                    "year": "2022",
+                    "img": "images/car3.png",
+                    "title": "Volvo XC60",
+                    "speed": "8 000 км",
+                    "volume": "2.0 л.",
+                    "transmission": "Автомат",
+                    "price": "56 240 €"
+                })
+                @@include('car.html', {
+                    "year": "2023",
+                    "img": "images/car4.png",
+                    "title": "Mercedes-Benz GLC-Class 300 9G-Tronic",
+                    "speed": "5 000 км",
+                    "volume": "2.0 л.",
+                    "transmission": "Автомат",
+                    "price": "94 600 €"
+                })
+                @@include('car.html', {
+                    "year": "2015",
+                    "img": "images/car5.png",
+                    "title": "Porsche Macan",
+                    "speed": "90 000 км",
+                    "volume": "1.6 л.",
+                    "transmission": "Автомат",
+                    "price": "76 500 €"
+                })
+                @@include('car.html', {
+                    "year": "2023",
+                    "img": "images/car10.png",
+                    "title": "Volkswagen ID.4 Crozz",
+                    "speed": "1 000 км",
+                    "volume": "225 кВт",
+                    "transmission": "Автомат",
+                    "price": "41 000 €"
+                })
+                @@include('car.html', {
+                    "year": "2022",
+                    "img": "images/car11.png",
+                    "title": "Tesla Model Y",
+                    "speed": "2 000 км",
+                    "volume": "225 кВт",
+                    "transmission": "Автомат",
+                    "price": "49 500 €"
+                })
+                @@include('car.html', {
+                    "year": "2023",
+                    "img": "images/car12.png",
+                    "title": "Volkswagen ID.4",
+                    "speed": "1 000 км",
+                    "volume": "225 кВт",
+                    "transmission": "Автомат",
+                    "price": "41 800 €"
+                })
+                @@include('car.html', {
+                    "year": "2022",
+                    "img": "images/car13.png",
+                    "title": "Volvo XC60",
+                    "speed": "0 км",
+                    "volume": "2.0 л.",
+                    "transmission": "Автомат",
+                    "price": "41 100 €"
+                })
+                @@include('car.html', {
+                    "year": "",
+                    "img": "images/car8.png",
+                    "title": "Наше предложение Вас заинтересовало? Свяжитесь с нами!",
+                    "speed": "8 000 км",
+                    "volume": "2.0 л.",
+                    "transmission": "Автомат",
+                    "price": "56 240 €"
+                })
+            }
+
+        </div>
+    </div>
+</div>
